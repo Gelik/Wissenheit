@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/test.org.use case.model/src"
+    modelPluginID="test.org.use case.model" modelName="use case" codeFormatting="true"
+    complianceLevel="5.0" copyrightFields="false">
+  <foreignModel>platform:/resource/Use%20Case/model/use%20case.ecore#/</foreignModel>
+  <genPackages prefix="Use case" basePackage="test.org" disposableProviderFactory="true"
+      ecorePackage="use%20case.ecore#/"/>
+</genmodel:GenModel>

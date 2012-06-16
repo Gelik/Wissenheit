@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="-jzf6y5gvavbrokem7n2j">
+		<property name="$metaclass" value="bpmn::BusinessProcessDiagram"/>
+		<property name="$name" value="Use Case"/>
+		<node uin="-i9jk2dgvavbroz-dguyui">
+			<property name="$metaclass" value="bpmn::Pool"/>
+			<property name="$name" value="DefaultPool"/>
+			<node uin="xvnszkgvavbroz95b1rl">
+				<property name="$metaclass" value="bpmn::Process"/>
+			</node>
+			<node uin="fzw2x0gvavbrozac55rm">
+				<property name="$metaclass" value="bpmn::Participant"/>
+			</node>
+			<node uin="-i9mef9gvavbroz-5jzb0m">
+				<property name="$metaclass" value="bpmn::Lane"/>
+				<property name="$name" value="Lane1"/>
+			</node>
+		</node>
+	</node>
+</nodeSet>

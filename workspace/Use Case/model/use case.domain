@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain:DSLDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:domain="http://www.borland.com/dsl/2007/domain" modelPluginID="test.org.use case.model" basePackage="test.org" complianceLevel="5.0" generateEdit="true">
+  <domainDiagram href="use%20case.domain_diagram#_-J_d0RUCEeG5mL_-naO1DA"/>
+  <ecoreRoot href="use%20case.ecore#/"/>
+  <genmodel href="use%20case.genmodel#/"/>
+</domain:DSLDomain>

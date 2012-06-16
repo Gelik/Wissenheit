@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V-n14e98gvavbrok6gbjh6">
+		<property name="$metaclass" value="BpmnView"/>
+		<property name="$name" value="Use Case"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-jzf6y5gvavbrokem7n2j">
+			<property name="$shortcutReference" value="true"/>
+			<property name="show_as_fullscreen" value="true"/>
+			<property name="bounds" value="5,5,820,352"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="157" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="154" y="32">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="com.tssap.selena.model.ui.navigator.view"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="com.togethersoft.selena.sapient.ui.launchActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="74" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="209" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.emf.ecore.presentation.EcoreEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.borland.dsl.domain.ui.editors.DomainEditor" itemType="typePlaceholder" x="85" y="22"/>
+<coolItem id="com.borland.dsl.project.dsl.presentation.DslEditorID" itemType="typePlaceholder" x="61" y="22"/>
+<coolItem id="com.borland.dsl.diagram.ui.DiagramEditorID" itemType="typePlaceholder" x="61" y="22"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1321959159390" focus="true" label="Workspace - Modeling">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.borland.tg.gde.diagramEditor" name="Wissenheit" partName="Wissenheit" title="Wissenheit" tooltip="Wissenheit" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" partName="Sequence Diagram1" title="Sequence Diagram1" tooltip="Sequence Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" partName="Sequence Diagram2" title="Sequence Diagram2" tooltip="Sequence Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" partName="Sequence Diagram3" title="Sequence Diagram3" tooltip="Sequence Diagram3" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" partName="Sequence Diagram4" title="Sequence Diagram4" tooltip="Sequence Diagram4" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Automat" partName="Automat" title="Automat" tooltip="Automat" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.txv*" isEnabled="false"/>
+<filter element="*.txa*" isEnabled="false"/>
+<filter element="Model Folder" isEnabled="false"/>
+</filters>
+<expanded>&#x0A;<element path="/Wissenheit"/>
+</expanded>
+<selection>&#x0A;<element path="/Wissenheit/src"/>
+</selection>
+</viewState>
+</view>
+<view id="com.borland.dsl.project.DSLExplorer" partName="DSL Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" configured="false" workingSetsAsRoot="0">
+<localWorkingSetManager>&#x0A;<workingSet editPageId="com.borland.dsl.project.navigator.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1321963796355_1" label="Other Projects" name="Other Projects">&#x0A;<item elementID="=Wissenheit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+</localWorkingSetManager>
+<activeWorkingSet workingSetName="Other Projects"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Errors (3 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1321959159390">
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="_patternFilterId_*.txv*" isEnabled="true"/>
+<child filterId="com.tssap.selena.dom.HideDesignRoot" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="_patternFilterId_*.txa*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="com.tssap.selena.model.ui.navigator.view" partName="Model Navigator">
+<viewState linkWithEditor="false">
+<expanded>&#x0A;<element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
+<element element="design:view:::V1hexuhgvavmzjs-fgipzv" model="model:project::Wissenheit"/>
+<element element="design:node:::-yrgd8egx7oxsanr7r20h" model="model:project::Wissenheit"/>
+</expanded>
+<selection>&#x0A;<element element="design:node:::8bho0jgvavp58yl71b30" model="model:project::Wissenheit"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.help.ui.HelpView" partName="Help">
+<viewState pageId="context-help-page"/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.runtime.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.runtime.actions"/>
+<alwaysOnActionSet id="com.borland.tg.xsl.ui.ocl.trax.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.m2m.qvt.oml.runtime.actions"/>
+<alwaysOnActionSet id="com.borland.dsl.model.search.actionSet"/>
+<alwaysOnActionSet id="com.borland.gendoc.ui.actionSet"/>
+<alwaysOnActionSet id="com.borland.sanctuary.actionSet"/>
+<alwaysOnActionSet id="com.borland.selena.internal.model.ide.searchActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.QvtDebug"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1927ba1" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7496206" ratioLeft="494" ratioRight="165" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jdt.ui.JavadocView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.8954635" ratioLeft="908" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.borland.dsl.internal.ui.DSLPerspective" id="com.borland.dsl.ui.dslPerspective" label="Domain-Specific Language"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.borland.dsl.model.search.actionSet"/>
+<alwaysOnActionSet id="com.borland.gendoc.ui.actionSet"/>
+<alwaysOnActionSet id="com.borland.sanctuary.actionSet"/>
+<alwaysOnActionSet id="com.borland.selena.internal.model.ide.searchActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.QvtDebug"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.m2m.qvt.oml.runtime.actions"/>
+<show_view_action id="com.borland.dsl.project.DSLExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="com.borland.dsl.ui.views.TemplatesNavigator"/>
+<new_wizard_action id="com.borland.dsl.diagram.ui.DiagramModelWizardID"/>
+<new_wizard_action id="com.borland.dsl.domain.ui.wizards.EmptyDomainModelWizard"/>
+<new_wizard_action id="com.borland.dsl.domain.ui.wizards.DomainModelWizard"/>
+<new_wizard_action id="com.borland.dsl.gallery.ui.wizards.EmptyGalleryWizard"/>
+<new_wizard_action id="com.borland.dsl.gallery.ui.wizards.GalleryWizard"/>
+<new_wizard_action id="com.borland.dsl.domain.DSLProjectWizard"/>
+<new_wizard_action id="com.borland.dsl.mt.wizard.NewTemplateFileWizard"/>
+<new_wizard_action id="com.borland.dsl.m2m.wizards.NewQVTTransformationWizard"/>
+<new_wizard_action id="com.borland.dsl.m2m.wizards.NewQvtLibraryWizard"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.borland.dsl.project.DSLExplorer"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<viewLayoutRec id="com.borland.dsl.ui.views.TemplatesNavigator" showTitle="true" standalone="true"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="com.borland.dsl.project.DSLExplorer" appearance="2" expanded="2">&#x0A;<page content="com.borland.dsl.project.DSLExplorer" label="DSL Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.m2m.internal.qvt.oml.common.views.MetamodelBrowserView" label="LabelNotFound"/>
+<page content="com.borland.dsl.ui.views.DynamicTemplates" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="left"/>
+<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2"/>
+</info>
+<info folder="true" part="com.borland.dsl.ui.views.TemplatesNavigator.standalonefolder" ratio="0.748954" ratioLeft="179" ratioRight="60" relationship="2" relative="right">&#x0A;<folder appearance="3" expanded="2">&#x0A;<page content="com.borland.dsl.ui.views.TemplatesNavigator" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.7496424" ratioLeft="524" ratioRight="175" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="com.borland.dsl.ui.views.LinkedDynamicTemplates" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.7496424" ratioLeft="524" ratioRight="175" relationship="4" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.togethersoft.togetherxj.uml.perspective.ModelingPerspective" id="com.togethersoft.selena.perspective.uml" label="Modeling"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.borland.dsl.model.search.actionSet"/>
+<alwaysOnActionSet id="com.borland.gendoc.ui.actionSet"/>
+<alwaysOnActionSet id="com.borland.sanctuary.actionSet"/>
+<alwaysOnActionSet id="com.borland.selena.internal.model.ide.searchActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.QvtDebug"/>
+<alwaysOnActionSet id="com.borland.selena.profile.deployActionSet"/>
+<alwaysOnActionSet id="com.borland.selena.profile.profileActionSet"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelDiffActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.diagramActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.navigateDiagramActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.image.exportActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.runtime.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.runtime.actions"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelAuditsActionSet"/>
+<alwaysOnActionSet id="com.borland.together.project.verifier"/>
+<alwaysOnActionSet id="com.borland.tg.team.compare.modelDiffActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.xsl.ui.ocl.trax.actionSet"/>
+<alwaysOnActionSet id="com.togethersoft.selena.model.navigation.referenceManagementActionSet"/>
+<alwaysOnActionSet id="com.togethersoft.togetherxj.uml.actions.gencdActionSet"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelActionSet"/>
+<show_view_action id="com.togethersoft.togetherxj.java.explorer.views.UMLExplorerView"/>
+<show_view_action id="com.borland.selena.modelmarker.modelbookmarks.view"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.tssap.selena.model.ui.navigator.view"/>
+<new_wizard_action id="com.borland.tg.mda.model2text.wizards.InvokeWizard"/>
+<new_wizard_action id="com.borland.tg.mda.qvt.wizards.NewQVTTransformationWizard"/>
+<new_wizard_action id="com.borland.tg.mda.qvt.wizards.NewQvtLibraryWizard"/>
+<new_wizard_action id="com.borland.tg.mda.xsl.ui.ocl.trax.wizards.NewXSLTransformation"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.togethersoft.togetherxj.modeling.diagram"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.borland.dsl.ui.dslPerspective"/>
+<perspective_action id="com.togethersoft.selena.perspective.uml"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.help.ui.HelpView"/>
+<fastViews>
+<view id="com.tssap.selena.model.ui.navigator.view" ratio="0.21044177"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@14c3ee7" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.2995984"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@b5ca00" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29899856"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14c3ee7">
+<folder appearance="2" expanded="2">
+<page content="com.tssap.selena.model.ui.navigator.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7">
+<folder activePageID="org.eclipse.help.ui.HelpView" appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="Help"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5ca00" ratio="0.6695279" ratioLeft="468" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.borland.selena.modelmarker.modelbookmarks.view" label="LabelNotFound"/>
+<page content="com.borland.tg.bpm.simulation.ui.SV" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
+</editors>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijze7c-e6f3m8@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Name + Farbe eingeben" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijxxz425dqsl@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Antwort Prüfen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijy4b1-mn61v5@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Frage auswählen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwz8y-exby95@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Würfeln" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Frage auswählen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Frage stellen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Antwort Prüfen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Name + Farbe eingeben" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Connection Point Reference]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-6dzz5zh3ik0szl-b1qyc5@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Name + Farbe eingeben" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Initial1] -&gt; [Name + Farbe eingeben]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik16af-q39167@k9ofrlh3ijwpzp-46ehsf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@k9ofrlh3ijwpzp-46ehsf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Name + Farbe eingeben] -&gt; [Name + Farbe eingeben]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik1ctq-37rhcg@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijyovm-7stn5t@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Frage stellen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Name + Farbe eingeben] -&gt; [Würfeln]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik2vqlocpm0g@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Spieler wechseln" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik3dsl-u7efnp@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Spieler wechseln" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik3dsl-u7efnp@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Spieler wechseln" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Würfeln] -&gt; [Figur bewegen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik40kw-cgb946@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4913-tlksd9@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Frage auswählen] -&gt; [Frage stellen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4d3zlmxznv@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Frage stellen] -&gt; [Antwort Prüfen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4gw2fvut7g@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Frage auswählen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4mnm-r859sd@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Frage auswählen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4mnm-r859sd@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik5x6wje03v4@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Siegbedinung Prüfen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Siegbedinung Prüfen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6q3r-dro879@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Spieler wechseln]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6t3ow96vpd@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Final1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@6drk9lh3ik70v6qlq8ko@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Final1]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik73vx1ijdo0@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik6gj9v3716u@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Final1]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik73vx1ijdo0@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Siegbedinung Prüfen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Spieler wechseln]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6t3ow96vpd@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Region20" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/Figur bewegen" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Würfeln] -&gt; [Figur bewegen]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik40kw-cgb946@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4913-tlksd9@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item historyLabel="Automat/[Transition Link: [Figur bewegen] -&gt; [Spieler wechseln]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik8tqe-yqwkuo@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+<item active="true" historyLabel="Automat/[Transition Link: [Spieler wechseln] -&gt; [Würfeln]]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik8zyf-30673d@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@14c3ee7"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@b5ca00"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Automat" tooltip="Automat">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissenheit" tooltip="Wissenheit">
+<persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
+</file>
+</mruList>
+</workbench>

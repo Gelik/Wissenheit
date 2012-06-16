@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Use Case</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.m2m.qvt.oml.project.QVTOBuilder</name>
+			<arguments>
+				<dictionary>
+					<key>src_container</key>
+					<value>transformations</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.borland.dsl.core.DSLNature</nature>
+		<nature>org.eclipse.m2m.qvt.oml.project.QVTONature</nature>
+		<nature>com.tssap.selena.model.modeling_nature</nature>
+		<nature>com.borland.tg.bpm.bpmn.bpmn_nature</nature>
+		<nature>com.borland.tg.bpm.bpmn.profile.bpel.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Suspended Root</name>
+			<type>2</type>
+			<locationURI>SuspendedRootVariable</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

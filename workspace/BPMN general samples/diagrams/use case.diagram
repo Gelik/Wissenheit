@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram:DSLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://www.borland.com/dsl/2007/diagram">
+  <mapping href="use%20case.gmfmap#/"/>
+  <generator href="use%20case.gmfgen#/"/>
+  <genmodel href="../../../plugin/com.borland.dsl.mindmap/model/mindmap.genmodel#/"/>
+  <domain href="../../../plugin/com.borland.dsl.mindmap/model/mindmap.domain#/"/>
+  <dgmt/>
+  <galleries href="../../../plugin/com.borland.dsl.gallery.basic/models/basic.gallery#/"/>
+</diagram:DSLDiagram>

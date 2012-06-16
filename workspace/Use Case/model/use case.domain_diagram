@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:domain="http://www.borland.com/dsl/2007/domain" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_-J_d0RUCEeG5mL_-naO1DA" type="DomainEcore" name="use%20case.domain_diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-J_d0hUCEeG5mL_-naO1DA"/>
+  <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-J_d0xUCEeG5mL_-naO1DA" name="com.borland.dsl.domain.DslDomainLinkStyle">
+    <eObjectValue xmi:type="domain:DSLDomain" href="use%20case.domain#/"/>
+  </styles>
+  <element xmi:type="ecore:EPackage" href="use%20case.ecore#/"/>
+</notation:Diagram>

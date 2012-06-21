@@ -2079,3 +2079,563 @@ Was expecting one of:
 !MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_action_globalActionHandlerProviders.html cannot be opened.
 !SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-16 12:32:31.332
 !MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_properties_propertyModifiers.html cannot be opened.
+!SESSION 2012-06-21 10:50:00.417 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_04
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.borland.together.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.together.product
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2012-06-21 10:51:46.627
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY com.borland.csf.license 1 1 2012-06-21 10:51:46.760
+!MESSAGE License expires in 106 days
+
+!ENTRY org.eclipse.help 4 0 2012-06-21 10:52:01.883
+!MESSAGE Error reading help table of contents file /"org.eclipse.gmf.doc/toc-runtime.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:655)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:605)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.createContextHelp(ContextHelpPart.java:524)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:320)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:694)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1145)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1131)
+	at org.eclipse.help.ui.internal.views.HelpView.handlePartActivation(HelpView.java:132)
+	at org.eclipse.help.ui.internal.views.HelpView.hook(HelpView.java:300)
+	at org.eclipse.help.ui.internal.views.HelpView.partVisible(HelpView.java:289)
+	at org.eclipse.ui.internal.PartListenerList2$7.run(PartListenerList2.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartVisible(PartListenerList2.java:170)
+	at org.eclipse.ui.internal.PartService.firePartVisible(PartService.java:253)
+	at org.eclipse.ui.internal.WWinPartService$WWinListener.partVisible(WWinPartService.java:62)
+	at org.eclipse.ui.internal.PartListenerList2$7.run(PartListenerList2.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartVisible(PartListenerList2.java:170)
+	at org.eclipse.ui.internal.PartService.firePartVisible(PartService.java:253)
+	at org.eclipse.ui.internal.PartService$PartVisible.fire(PartService.java:110)
+	at org.eclipse.ui.internal.PartService.processPartJobs(PartService.java:161)
+	at org.eclipse.ui.internal.PartService$PartListener.handleEvent(PartService.java:88)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:4815)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1653)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1668)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.ToolBar.setBounds(ToolBar.java:900)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2773)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2840)
+	at org.eclipse.ui.internal.presentations.PaneFolder.layout(PaneFolder.java:539)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.layout(DefaultTabFolder.java:403)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.layout(PresentablePartFolder.java:408)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.setBounds(PresentablePartFolder.java:260)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.setBounds(TabbedStackPresentation.java:231)
+	at org.eclipse.ui.internal.PartStack.setBounds(PartStack.java:1196)
+	at org.eclipse.ui.internal.LayoutTree.doSetBounds(LayoutTree.java:547)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.LayoutTreeNode.doSetBounds(LayoutTreeNode.java:537)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.PartSashContainer.resizeSashes(PartSashContainer.java:811)
+	at org.eclipse.ui.internal.PartSashContainer.access$1(PartSashContainer.java:801)
+	at org.eclipse.ui.internal.PartSashContainer$1.controlResized(PartSashContainer.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:4815)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1653)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1456)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2816)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1018)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2777)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2773)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2840)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:120)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1275)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1664)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1668)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:454)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1778)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:460)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.ShowWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1378)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:1865)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1206)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:790)
+	at org.eclipse.ui.internal.Workbench$66.runWithException(Workbench.java:3658)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.help 4 0 2012-06-21 10:52:01.888
+!MESSAGE Error reading help table of contents file /"org.eclipse.gmf.doc/toc-tooling.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:655)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:605)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.createContextHelp(ContextHelpPart.java:524)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:320)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:694)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1145)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1131)
+	at org.eclipse.help.ui.internal.views.HelpView.handlePartActivation(HelpView.java:132)
+	at org.eclipse.help.ui.internal.views.HelpView.hook(HelpView.java:300)
+	at org.eclipse.help.ui.internal.views.HelpView.partVisible(HelpView.java:289)
+	at org.eclipse.ui.internal.PartListenerList2$7.run(PartListenerList2.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartVisible(PartListenerList2.java:170)
+	at org.eclipse.ui.internal.PartService.firePartVisible(PartService.java:253)
+	at org.eclipse.ui.internal.WWinPartService$WWinListener.partVisible(WWinPartService.java:62)
+	at org.eclipse.ui.internal.PartListenerList2$7.run(PartListenerList2.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartVisible(PartListenerList2.java:170)
+	at org.eclipse.ui.internal.PartService.firePartVisible(PartService.java:253)
+	at org.eclipse.ui.internal.PartService$PartVisible.fire(PartService.java:110)
+	at org.eclipse.ui.internal.PartService.processPartJobs(PartService.java:161)
+	at org.eclipse.ui.internal.PartService$PartListener.handleEvent(PartService.java:88)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:4815)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1653)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1668)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.ToolBar.setBounds(ToolBar.java:900)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2773)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2840)
+	at org.eclipse.ui.internal.presentations.PaneFolder.layout(PaneFolder.java:539)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.layout(DefaultTabFolder.java:403)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.layout(PresentablePartFolder.java:408)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.setBounds(PresentablePartFolder.java:260)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.setBounds(TabbedStackPresentation.java:231)
+	at org.eclipse.ui.internal.PartStack.setBounds(PartStack.java:1196)
+	at org.eclipse.ui.internal.LayoutTree.doSetBounds(LayoutTree.java:547)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.LayoutTreeNode.doSetBounds(LayoutTreeNode.java:537)
+	at org.eclipse.ui.internal.LayoutTree.setBounds(LayoutTree.java:538)
+	at org.eclipse.ui.internal.PartSashContainer.resizeSashes(PartSashContainer.java:811)
+	at org.eclipse.ui.internal.PartSashContainer.access$1(PartSashContainer.java:801)
+	at org.eclipse.ui.internal.PartSashContainer$1.controlResized(PartSashContainer.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:4815)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:291)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1653)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1456)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2816)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1018)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2777)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2773)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:2840)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:120)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1275)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1664)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4873)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:80)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:948)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:914)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1138)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1668)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:454)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1778)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4236)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2454)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:497)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:4972)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:460)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4246)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1598)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2038)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.ShowWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1378)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:1865)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1206)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:790)
+	at org.eclipse.ui.internal.Workbench$66.runWithException(Workbench.java:3658)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.help.base 4 0 2012-06-21 10:52:09.485
+!MESSAGE Help index declared, but missing for plugin org.eclipse.emf.transaction.doc.
+
+!ENTRY org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/print/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/palette/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.emf.validation.doc/references/javadoc/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_decoratorProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_emf_core_Pathmaps.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_properties_propertiesProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/palette/customize/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_editpolicyProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_core_viewProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.210
+!MESSAGE Parse error occurred while adding document /org.eclipse.gmf.doc/prog-guide/runtime/Developer Guide to Command Framework.html to search index D:\Users\oli\Desktop\eclipse\configuration\org.eclipse.help.base\index\en_US.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 1627, column 8.
+Was expecting one of:
+    <CommentText1> ...
+    "-->" ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:691)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:572)
+	at org.apache.lucene.demo.html.HTMLParser.CommentTag(HTMLParser.java:399)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:198)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:221)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:666)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:640)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/editparts/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_parserProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/rulers/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/rulers/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_elementSelectionProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/requests/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/parts/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/tools/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/views/palette/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.emf.transaction.doc/references/extension-points/org_eclipse_emf_transaction_editingDomains.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/palette/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_action_actionFilterProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_layoutProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/handles/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.emf.transaction.doc/references/extension-points/org_eclipse_emf_transaction_listeners.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/overview-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Parse error occurred while adding document /org.eclipse.gmf.doc/prog-guide/runtime/Developer Guide to Contribution Item Service.html to search index D:\Users\oli\Desktop\eclipse\configuration\org.eclipse.help.base\index\en_US.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 1031, column 8.
+Was expecting one of:
+    <CommentText1> ...
+    "-->" ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:691)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:572)
+	at org.apache.lucene.demo.html.HTMLParser.CommentTag(HTMLParser.java:399)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:198)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:221)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:666)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:640)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_emf_type_core_elementTypeBindings.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_action_contributionItemProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/properties/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_markerNavigationProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_iconProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_dnd_dragDropListenerProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_emf_clipboard_core_clipboardSupport.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Parse error occurred while adding document /org.eclipse.gmf.doc/prog-guide/runtime/Developer Guide to Global Actions.html to search index D:\Users\oli\Desktop\eclipse\configuration\org.eclipse.help.base\index\en_US.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 812, column 8.
+Was expecting one of:
+    <CommentText1> ...
+    "-->" ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:691)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:572)
+	at org.apache.lucene.demo.html.HTMLParser.CommentTag(HTMLParser.java:399)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:198)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:221)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:666)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:640)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.211
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_emf_ui_modelingAssistantProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_dnd_transferAdapterProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_core_propertiesConfiguration.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_emf_type_core_elementTypes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_paletteProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_draw2d_ui_render_renderedImageFactory.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/dnd/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/ui/actions/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.emf.transaction.doc/references/javadoc/dummy.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/util/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/commands/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_resources_editor_documentProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_core_logListeners.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_diagram_ui_editpartProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_editorProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gef.doc.isv/reference/api/org/eclipse/gef/editpolicies/package-summary.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_action_globalActionHandlerProviders.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-21 10:52:34.212
+!MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_properties_propertyModifiers.html cannot be opened.
+
+!ENTRY org.eclipse.help 4 0 2012-06-21 15:19:18.815
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.togethersoft.togetherxj.doc.user_togetherxj/contexts_non_uml.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2012-06-21 15:19:18.816
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.togethersoft.togetherxj.doc.user_togetherxj/contexts_non_uml.xml" (skipping element)

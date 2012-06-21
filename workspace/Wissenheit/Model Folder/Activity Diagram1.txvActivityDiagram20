@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V-b8dyjigvax6nfp-ig2wzt">
+		<property name="$metaclass" value="ActivityDiagram20"/>
+		<property name="$name" value="Activity Diagram1"/>
+		<node uin="156bx8gx8wwtuni6f1eh">
+			<property name="$metaclass" value="Guide"/>
+			<property name="$name" value="Guide1"/>
+			<property name="position" value="640"/>
+			<property name="horizontal" value="false"/>
+		</node>
+	</view>
+</nodeSet>

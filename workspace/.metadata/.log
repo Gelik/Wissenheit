@@ -2079,6 +2079,7 @@ Was expecting one of:
 !MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_action_globalActionHandlerProviders.html cannot be opened.
 !SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-16 12:32:31.332
 !MESSAGE Help document /org.eclipse.gmf.doc/reference/extension-points/org_eclipse_gmf_runtime_common_ui_services_properties_propertyModifiers.html cannot be opened.
+<<<<<<< HEAD
 !SESSION 2012-06-21 10:50:00.417 -----------------------------------------------
 eclipse.buildId=M20110210-1200
 java.version=1.7.0_04
@@ -2094,6 +2095,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.toge
 !MESSAGE License expires in 106 days
 
 !ENTRY org.eclipse.help 4 0 2012-06-21 10:52:01.883
+=======
+!SESSION 2012-06-21 15:28:01.970 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_29
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2012-06-21 15:28:44.855
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY com.borland.csf.license 1 1 2012-06-21 15:28:45.401
+!MESSAGE License expires in 106 days
+
+!ENTRY org.eclipse.help 4 0 2012-06-21 15:29:01.375
+>>>>>>> b529f8c9cc99724f7e4d73579aa1ab247c3adc99
 !MESSAGE Error reading help table of contents file /"org.eclipse.gmf.doc/toc-runtime.xml" (skipping file)
 !STACK 0
 java.io.FileNotFoundException
@@ -2275,7 +2292,11 @@ java.io.FileNotFoundException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.help 4 0 2012-06-21 10:52:01.888
+=======
+!ENTRY org.eclipse.help 4 0 2012-06-21 15:29:01.391
+>>>>>>> b529f8c9cc99724f7e4d73579aa1ab247c3adc99
 !MESSAGE Error reading help table of contents file /"org.eclipse.gmf.doc/toc-tooling.xml" (skipping file)
 !STACK 0
 java.io.FileNotFoundException
@@ -2456,6 +2477,7 @@ java.io.FileNotFoundException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.help.base 4 0 2012-06-21 10:52:09.485
 !MESSAGE Help index declared, but missing for plugin org.eclipse.emf.transaction.doc.
@@ -2639,3 +2661,5 @@ Was expecting one of:
 
 !ENTRY org.eclipse.help 4 0 2012-06-21 15:19:18.816
 !MESSAGE Required attribute "label" missing from "topic" element in "/com.togethersoft.togetherxj.doc.user_togetherxj/contexts_non_uml.xml" (skipping element)
+=======
+>>>>>>> b529f8c9cc99724f7e4d73579aa1ab247c3adc99

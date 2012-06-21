@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+C:\Users\oli\Documents\GitHub\Wissenheit\workspace\.metadata\.plugins\org.eclipse.jdt.core
 728132027.index
 4149142647.index
@@ -13,3 +14,17 @@ INDEX VERSION 1.126+C:\Users\oli\Documents\GitHub\Wissenheit\workspace\.metadata
 1820024274.index
 3256372620.index
 384216248.index
+=======
+INDEX VERSION 1.126+D:\Wissenheit\workspace\.metadata\.plugins\org.eclipse.jdt.core
+529437705.index
+4050959524.index
+3291799386.index
+1962638457.index
+1620503597.index
+848959954.index
+2479909925.index
+2375370348.index
+4284093014.index
+989118166.index
+3140045379.index
+>>>>>>> b529f8c9cc99724f7e4d73579aa1ab247c3adc99

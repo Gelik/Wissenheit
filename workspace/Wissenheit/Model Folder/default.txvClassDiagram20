@@ -35,7 +35,15 @@
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::Vam8ynkh3pwz2yrtxd71r">
-			<property name="bounds" value="204,-4,119,72"/>
+			<property name="bounds" value="204,-4,124,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh3py2jywl36n9u">
+			<property name="bounds" value="185,84,254,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh3pyj82rsfooh9">
+			<property name="bounds" value="477,-4,119,72"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

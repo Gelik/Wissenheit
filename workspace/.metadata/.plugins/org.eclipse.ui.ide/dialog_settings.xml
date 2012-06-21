@@ -9,12 +9,12 @@
 	<section name="ResourceListSelectionDialogSettings">
 		<item value="346" key="DIALOG_WIDTH"/>
 		<item value="56" key="DIALOG_Y_ORIGIN"/>
-		<item value="471" key="DIALOG_X_ORIGIN"/>
 		<item value="522" key="DIALOG_HEIGHT"/>
+		<item value="471" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewWizardAction">
-		<item value="com.togethersoft.togetherxj.modeling.project.java20" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="com.togethersoft.togetherxj.modeling.project.uml_20" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="com.togethersoft.togetherxj.uml.modeling"/>
 		</list>

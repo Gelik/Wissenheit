@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="157" version="2.0">
+<workbench progressCount="158" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="154" y="32">
+<window height="1160" maximized="true" width="960" x="0" y="0">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.tssap.selena.model.ui.navigator.view"/>
 </fastViewData>
@@ -12,23 +12,23 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="com.togethersoft.selena.sapient.ui.launchActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="74" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="209" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="213" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.emf.codegen.ecore.genmodel.presentation.GenModelEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.emf.ecore.presentation.EcoreEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.borland.dsl.domain.ui.editors.DomainEditor" itemType="typePlaceholder" x="85" y="22"/>
 <coolItem id="com.borland.dsl.project.dsl.presentation.DslEditorID" itemType="typePlaceholder" x="61" y="22"/>
 <coolItem id="com.borland.dsl.diagram.ui.DiagramEditorID" itemType="typePlaceholder" x="61" y="22"/>
-<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,47 +38,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.borland.tg.gde.diagramEditor" name="Wissenheit" partName="Wissenheit" title="Wissenheit" tooltip="Wissenheit" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" partName="Sequence Diagram1" title="Sequence Diagram1" tooltip="Sequence Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" partName="Sequence Diagram2" title="Sequence Diagram2" tooltip="Sequence Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" partName="Sequence Diagram3" title="Sequence Diagram3" tooltip="Sequence Diagram3" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" partName="Sequence Diagram4" title="Sequence Diagram4" tooltip="Sequence Diagram4" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
-</editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Automat" partName="Automat" title="Automat" tooltip="Automat" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -86,15 +49,19 @@
 </view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
-<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filters>
+<filter element="*.class" isEnabled="false"/>
 <filter element=".*" isEnabled="false"/>
 <filter element="*.txv*" isEnabled="false"/>
 <filter element="*.txa*" isEnabled="false"/>
 <filter element="Model Folder" isEnabled="false"/>
 </filters>
-<expanded>&#x0A;<element path="/Wissenheit"/>
+<expanded>
+<element path="/Wissenheit"/>
+<element path="/Wissenheit/Model Folder"/>
 </expanded>
-<selection>&#x0A;<element path="/Wissenheit/src"/>
+<selection>
+<element path="/Wissenheit/Model Folder"/>
 </selection>
 </viewState>
 </view>
@@ -153,11 +120,12 @@
 </view>
 <view id="com.tssap.selena.model.ui.navigator.view" partName="Model Navigator">
 <viewState linkWithEditor="false">
-<expanded>&#x0A;<element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
+<expanded>
+<element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
 <element element="design:view:::V1hexuhgvavmzjs-fgipzv" model="model:project::Wissenheit"/>
-<element element="design:node:::-yrgd8egx7oxsanr7r20h" model="model:project::Wissenheit"/>
 </expanded>
-<selection>&#x0A;<element element="design:node:::8bho0jgvavp58yl71b30" model="model:project::Wissenheit"/>
+<selection>
+<element element="design:view:::Vam8ynkgx7p2gkn-deydab" model="model:project::Wissenheit"/>
 </selection>
 </viewState>
 </view>
@@ -172,7 +140,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="com.tssap.selena.model.ui.navigator.view" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -417,15 +385,9 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.help.ui.HelpView"/>
-<fastViews>
-<view id="com.tssap.selena.model.ui.navigator.view" ratio="0.21044177"/>
-</fastViews>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="com.tssap.selena.model.ui.navigator.view"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@14c3ee7" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.2995984"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@b5ca00" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.29899856"/>
@@ -435,13 +397,16 @@
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@14c3ee7">
-<folder appearance="2" expanded="2">
-<page content="com.tssap.selena.model.ui.navigator.view" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="com.tssap.selena.model.ui.navigator.view" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="com.tssap.selena.model.ui.navigator.view" label="Model Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="1"/>
+<part id="0"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7">
+<info folder="true" part="stickyFolderRight" ratio="0.76527333" ratioLeft="714" ratioRight="219" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7">
 <folder activePageID="org.eclipse.help.ui.HelpView" appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="Help"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
@@ -465,161 +430,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
-</editors>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijze7c-e6f3m8@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Name + Farbe eingeben" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijxxz425dqsl@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Antwort Prüfen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijy4b1-mn61v5@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Frage auswählen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwz8y-exby95@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Würfeln" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Frage auswählen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Frage stellen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Antwort Prüfen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Name + Farbe eingeben" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Connection Point Reference]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-6dzz5zh3ik0szl-b1qyc5@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Name + Farbe eingeben" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Initial1] -&gt; [Name + Farbe eingeben]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik16af-q39167@k9ofrlh3ijwpzp-46ehsf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@k9ofrlh3ijwpzp-46ehsf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Name + Farbe eingeben] -&gt; [Name + Farbe eingeben]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik1ctq-37rhcg@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijyovm-7stn5t@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Frage stellen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Name + Farbe eingeben] -&gt; [Würfeln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik2vqlocpm0g@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijze7c-2rc3nf@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Spieler wechseln" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik3dsl-u7efnp@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Spieler wechseln" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik3dsl-u7efnp@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Spieler wechseln" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Würfeln] -&gt; [Figur bewegen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik40kw-cgb946@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4913-tlksd9@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Frage auswählen] -&gt; [Frage stellen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4d3zlmxznv@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijy4b1f0mqs8@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Frage stellen] -&gt; [Antwort Prüfen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4gw2fvut7g@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijyovmbyuhp4@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Frage auswählen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4mnm-r859sd@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Frage auswählen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4mnm-r859sd@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik5x6wje03v4@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Siegbedinung Prüfen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Antwort Prüfen] -&gt; [Siegbedinung Prüfen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6q3r-dro879@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijxxz4-qah866@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Spieler wechseln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6t3ow96vpd@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Final1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@6drk9lh3ik70v6qlq8ko@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Final1]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik73vx1ijdo0@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ik6gj9v3716u@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Final1]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik73vx1ijdo0@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Siegbedinung Prüfen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Siegbedinung Prüfen] -&gt; [Spieler wechseln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik6t3ow96vpd@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik6giu-g3alkh@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Region20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/Figur bewegen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@node@@@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Würfeln] -&gt; [Figur bewegen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik40kw-cgb946@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik4913-tlksd9@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ijwz8y-75t2bz@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item historyLabel="Automat/[Transition Link: [Figur bewegen] -&gt; [Spieler wechseln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik8tqe-yqwkuo@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik85903935bg@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-<item active="true" historyLabel="Automat/[Transition Link: [Spieler wechseln] -&gt; [Würfeln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-d9nhuoh3ijve7db5r3pa::design@link@@@ieje0rh3ik8zyf-30673d@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-3uf15dh3ik3dslsj7n2f@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@-acitv2h3ijwhkd-pbcd0z@j8ctxyh3ijwhjy-5dz9lz:design@node@@@j8ctxyh3ijwhjy-5dz9lz"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -627,6 +438,9 @@
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@14c3ee7"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="stickyFolderRight"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -640,29 +454,29 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Automat" tooltip="Automat">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
-</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissenheit" tooltip="Wissenheit">
 <persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>

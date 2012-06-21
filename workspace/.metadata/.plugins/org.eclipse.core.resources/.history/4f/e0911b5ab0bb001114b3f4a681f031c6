@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkh3py5nbjmws65j">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8eh3py5npfhi7m6q"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<property name="$name" value="SysOp GetFrage"/>
+		<reference referencedUin="design:node:::-yrgd8eh3py5npfhi7m6q">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="5,5,102,50"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+	<link uin="ieje0rh3py5nr9r4bq4l">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkh3py5nbjmws65j" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8eh3py5npfhi7m6q" role="Supplier"></participant>
+	</link>
+</nodeSet>

@@ -5,6 +5,7 @@
 	<view uin="V1hexuhgvavmzjs-fgipzv">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="design:view:::V-jr6xbagvavosmdes8v77">
 			<property name="bounds" value="5,5,150,104"/>
 			<property name="location_set_by_user" value="true"/>
@@ -15,6 +16,26 @@
 		</reference>
 		<reference referencedUin="design:view:::V-b8dyjigvaxub1n-sdwjnj">
 			<property name="bounds" value="174,87,143,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3pvl7fd-laizyg">
+			<property name="bounds" value="5,105,80,60"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3pvlsl6c0ioa8">
+			<property name="bounds" value="5,5,80,60"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-d9nhuoh3ijve7db5r3pa">
+			<property name="bounds" value="5,205,98,60"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3pvlhp0-l74a6b">
+			<property name="bounds" value="105,5,80,60"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh3pwz2yrtxd71r">
+			<property name="bounds" value="204,-4,119,72"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

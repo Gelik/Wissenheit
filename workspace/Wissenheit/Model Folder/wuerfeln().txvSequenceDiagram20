@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkh3pwz2yrtxd71r">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8eh3pwz30h5ioo5b"/>
+		<property name="$name" value="wuerfeln()"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8eh3pwz30h5ioo5b">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="5,5,651,531"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+	</view>
+	<link uin="ieje0rh3pwz32n-cdyim7">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkh3pwz2yrtxd71r" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8eh3pwz30h5ioo5b" role="Supplier"></participant>
+	</link>
+</nodeSet>

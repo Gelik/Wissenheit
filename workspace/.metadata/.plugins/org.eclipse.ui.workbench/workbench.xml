@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="158" version="2.0">
+<workbench progressCount="153" version="2.0">
 <workbenchAdvisor/>
-<window height="1160" maximized="true" width="960" x="0" y="0">
+<window height="580" maximized="true" width="480" x="0" y="580">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.tssap.selena.model.ui.navigator.view"/>
 </fastViewData>
@@ -28,7 +28,7 @@
 <coolItem id="com.borland.dsl.domain.ui.editors.DomainEditor" itemType="typePlaceholder" x="85" y="22"/>
 <coolItem id="com.borland.dsl.project.dsl.presentation.DslEditorID" itemType="typePlaceholder" x="61" y="22"/>
 <coolItem id="com.borland.dsl.diagram.ui.DiagramEditorID" itemType="typePlaceholder" x="61" y="22"/>
-<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,10 +38,27 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" partName="Sequence Diagram1" title="Sequence Diagram1" tooltip="Sequence Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" partName="Sequence Diagram2" title="Sequence Diagram2" tooltip="Sequence Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" partName="Sequence Diagram3" title="Sequence Diagram3" tooltip="Sequence Diagram3" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" partName="Sequence Diagram4" title="Sequence Diagram4" tooltip="Sequence Diagram4" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -58,10 +75,10 @@
 </filters>
 <expanded>
 <element path="/Wissenheit"/>
-<element path="/Wissenheit/Model Folder"/>
+<element path="/Wissenheit-UML"/>
 </expanded>
 <selection>
-<element path="/Wissenheit/Model Folder"/>
+<element path="/Wissenheit-UML"/>
 </selection>
 </viewState>
 </view>
@@ -122,10 +139,10 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
-<element element="design:view:::V1hexuhgvavmzjs-fgipzv" model="model:project::Wissenheit"/>
+<element element="model:project::Wissenheit-UML" model="model:project::Wissenheit-UML"/>
 </expanded>
 <selection>
-<element element="design:view:::Vam8ynkgx7p2gkn-deydab" model="model:project::Wissenheit"/>
+<element element="design:view:::Vam8ynkgx7p6kg6-5eieyu" model="model:project::Wissenheit-UML"/>
 </selection>
 </viewState>
 </view>
@@ -140,7 +157,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.tssap.selena.model.ui.navigator.view" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -430,18 +447,91 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</editors>
+<item historyLabel="/[Sequence Diagram]" index="0">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/[Sequence Diagram]" index="1">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="/[Sequence Diagram]" index="0">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/Sequence Diagram1" index="2">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="/Sequence Diagram2" index="3">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</item>
+<item historyLabel="/Sequence Diagram3" index="4">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</item>
+<item historyLabel="/Sequence Diagram4" index="5">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/Sequence Diagram4" index="6">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/Sequence Diagram3" index="7">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</item>
+<item historyLabel="/Sequence Diagram2" index="8">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</item>
+<item historyLabel="/Sequence Diagram1" index="9">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="/Sequence Diagram2" index="8">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</item>
+<item historyLabel="/Sequence Diagram1" index="9">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="/Sequence Diagram4" index="6">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/Sequence Diagram4" index="5">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+<item historyLabel="/Sequence Diagram3" index="4">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</item>
+<item historyLabel="/Sequence Diagram2" index="3">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</item>
+<item historyLabel="/Sequence Diagram1" index="2">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="Sequence Diagram1/Sequence Diagram1" index="2">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</item>
+<item historyLabel="Sequence Diagram2/Sequence Diagram2" index="3">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</item>
+<item historyLabel="Sequence Diagram3/Sequence Diagram3" index="4">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</item>
+<item active="true" historyLabel="Sequence Diagram4/Sequence Diagram4" index="5">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@14c3ee7"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="stickyFolderRight"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -454,23 +544,41 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name" tooltip="Unknown Name">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name" tooltip="Unknown Name">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Automat" tooltip="Automat">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>

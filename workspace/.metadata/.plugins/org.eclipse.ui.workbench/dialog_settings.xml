@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item value="com.borland.dsl.diagram.ui.DiagramModelWizardID" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.borland.dsl.wizardCategory"/>
-			<item value="com.togethersoft.togetherxj.uml.modeling"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="com.borland.tg.templates.Wizards"/>
+			<item value="com.borland.tg.templates.Wizards/com.borland.tg.templates.Wizards.cpp"/>
+			<item value="com.borland.tg.templates.Wizards/com.borland.tg.templates.Wizards.idl"/>
+			<item value="com.borland.tg.templates.Wizards/com.borland.tg.templates.Wizards.java"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
 </section>

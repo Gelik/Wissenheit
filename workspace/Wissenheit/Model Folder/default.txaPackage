@@ -1573,7 +1573,7 @@
 			</node>
 			<node uin="-3uf15dh4yimd5t-gqielq">
 				<property name="$metaclass" value="State20"/>
-				<property name="$name" value="Datensammeln"/>
+				<property name="$name" value="Datenerfassung"/>
 				<node uin="-acitv2h4yimd68-ei3baj">
 					<property name="$metaclass" value="Region20"/>
 					<property name="$name" value="Region20"/>
@@ -1586,7 +1586,7 @@
 			</node>
 			<node uin="-3uf15dh4yiml85-ialrk4">
 				<property name="$metaclass" value="State20"/>
-				<property name="$name" value="Spiel Initialisieren"/>
+				<property name="$name" value="Initialisierung"/>
 				<node uin="-acitv2h4yiml85-z9rzeu">
 					<property name="$metaclass" value="Region20"/>
 					<property name="$name" value="Region20"/>
@@ -1599,7 +1599,7 @@
 			</node>
 			<node uin="-3uf15dh4yinh1v16gax8">
 				<property name="$metaclass" value="State20"/>
-				<property name="$name" value="Spielzug ausführen"/>
+				<property name="$name" value="Spielzug"/>
 				<node uin="-acitv2h4yinh1v-4rwxtp">
 					<property name="$metaclass" value="Region20"/>
 					<property name="$name" value="Region20"/>
@@ -1625,7 +1625,7 @@
 			</node>
 			<node uin="-3uf15dh4yinxvo-bl5wsg">
 				<property name="$metaclass" value="State20"/>
-				<property name="$name" value="nächsten Spielzug vorbereiten"/>
+				<property name="$name" value="SpielzugVorbereiten"/>
 				<node uin="-acitv2h4yinxw4rprlt1">
 					<property name="$metaclass" value="Region20"/>
 					<property name="$name" value="Region20"/>

@@ -40,69 +40,25 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 <part id="1"/>
+<part id="0"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.borland.tg.gde.diagramEditor" name="Wissenheit" partName="Wissenheit" title="Wissenheit" tooltip="Wissenheit" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" partName="Sequence Diagram1" title="Sequence Diagram1" tooltip="Sequence Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" partName="Sequence Diagram2" title="Sequence Diagram2" tooltip="Sequence Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" partName="Sequence Diagram3" title="Sequence Diagram3" tooltip="Sequence Diagram3" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" partName="Sequence Diagram4" title="Sequence Diagram4" tooltip="Sequence Diagram4" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="frageStellen()" partName="frageStellen()" title="frageStellen()" tooltip="frageStellen()" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh3pyllp9-fdrnf8"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="getFrage()" partName="getFrage()" title="getFrage()" tooltip="getFrage()" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh3py5nbjmws65j"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Automat" partName="Automat" title="Automat" tooltip="Automat" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::V-d9nhuoh3wx4hzx-9mk8on"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" partName="Use Case Diagram2" title="Use Case Diagram2" tooltip="Use Case Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="spielerErmitteln" partName="spielerErmitteln" title="spielerErmitteln" tooltip="spielerErmitteln" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
 </editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
 </editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+<editor id="com.borland.tg.gde.diagramEditor" name="kategorienWaehlen" partName="kategorienWaehlen" title="kategorienWaehlen" tooltip="kategorienWaehlen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" partName="Spielzug durchführen" title="Spielzug durchführen" tooltip="Spielzug durchführen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </editor>
 </editors>
 <views>
@@ -182,9 +138,10 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
+<element element="design:node:::-yrgd8eh3py2jyw-wtzn2t" model="model:project::Wissenheit"/>
 </expanded>
 <selection>
-<element element="design:view:::V-b8dyjih3x3im9n1644mx" model="model:project::Wissenheit"/>
+<element element="design:node:::8krugmh3x2v299afdbc6" model="model:project::Wissenheit"/>
 </selection>
 </viewState>
 </view>
@@ -196,7 +153,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="com.tssap.selena.model.ui.navigator.view" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -447,11 +404,6 @@
 <view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.21927711"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@b5ca00" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29899856"/>
-</fastViews>
-</fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
@@ -493,157 +445,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
 </editors>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|104(design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|104(design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [DecisionNode21]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Execution Specification]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yew2hk-4qo9mh@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/User Interface" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@a6k48rh3x3j7cf-a6usjr@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [DecisionNode21]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_CombinedFragment1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [DecisionNode21]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode21" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode21" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [DecisionNode21]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yexhgq-j95dk1@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yex6yf-bndplz@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode21] -&gt; [Würfeln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spieler hat &lt; 3 mal gewürfelt" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_Int_InvocationSpecification1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Figur Auswählen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3kou5-xi8rte@-46k66rh3x3iu6c3n0v74:design@node@@@a6k48rh3x3j7cf-a6usjr@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Zufallszahl errechnen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode21" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Spielzug durchführen/Spielzug durchführen" index="2">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </item>
-<item historyLabel="Activity Diagram2/Zufallszahl errechnen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/null" index="1">
+<position/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode21" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Zufallszahl errechnen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode21" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Zufallszahl errechnen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode21] -&gt; [Würfeln]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Activity Diagram1/Activity Diagram1" index="3">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-b8dyjih3x2y73rxchev5"/>
 </item>
-<item historyLabel="Activity Diagram2/Zufallszahl errechnen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Spielzug durchführen/Spielzug durchführen" index="2">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [Würfeln] -&gt; [Zufallszahl errechnen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3kirrxnomfe@-qbjze4h3x3jz2t-kwjcpg@-46k66rh3x3iu6c3n0v74:design@node@@@-qbjze4h3x3jz2t-kwjcpg@-46k66rh3x3iu6c3n0v74:design@node@@@a6k48rh3x3j7cf-a6usjr@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Spielzug durchführen/[Label]" index="2">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message_label@sd20_message|1|call|168(design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message|1|call|168(design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
 </item>
-<item historyLabel="Activity Diagram2/Spieler hat &lt; 3 mal gewürfelt" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3p7nf-v96z3q@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Spielzug durchführen/[Label]" index="2">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message_label@sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
 </item>
-<item historyLabel="Activity Diagram2/DecisionNode20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="Spielzug durchführen/call" index="2">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [DecisionNode21]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Würfelergebniss keine 6 und keine Spielfigur des Spielers auf dem Spielfeld" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::label@label@design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@link@@@ieje0rh3x3lks8az1qc9@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [Zufallszahl errechnen] -&gt; [DecisionNode20]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3lg1216kk0m@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-qbjze4h3x3k94ntbreba@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [DecisionNode20] -&gt; [Figur Auswählen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3t4u0zgigtv@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3lbcx958gks@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/Interaction" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Spielzug durchführen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/[Label]" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/Figur bewegen" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-qbjze4h3x3tgtmfl2nbl@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="kategorienWaehlen/call" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [Figur Auswählen] -&gt; [Figur bewegen]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3tq7m-b6n66u@-qbjze4h3x3kou5-xi8rte@-46k66rh3x3iu6c3n0v74:design@node@@@-qbjze4h3x3kou5-xi8rte@-46k66rh3x3iu6c3n0v74:design@node@@@a6k48rh3x3j7cf-a6usjr@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
 </item>
-<item historyLabel="Activity Diagram2/ActivityFinalNode20" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-5vj00ph3x3tv34-1wbeo0@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="spielerErmitteln/Lifeline2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-y8nsowh3py3c3l1jqkxh@-yrgd8eh3py2jyw-wtzn2t:design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
 </item>
-<item historyLabel="Activity Diagram2/[Control Flow: [Figur bewegen] -&gt; [ActivityFinalNode20]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3tywh-7rzmli@-qbjze4h3x3tgtmfl2nbl@-46k66rh3x3iu6c3n0v74:design@node@@@-qbjze4h3x3tgtmfl2nbl@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item historyLabel="spielerErmitteln/Lifeline1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-y8nsowh3py32ke-8pjszw@-yrgd8eh3py2jyw-wtzn2t:design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
 </item>
-<item active="true" historyLabel="Activity Diagram2/[Control Flow: [DecisionNode21] -&gt; [ActivityFinalNode20]]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@link@@@ieje0rh3x3u2y2-97u200@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@l7v8ch3x3ofyr7u3ndi@-46k66rh3x3iu6c3n0v74:design@node@@@-46k66rh3x3iu6c3n0v74"/>
+<item active="true" historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -661,16 +616,33 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@b5ca00"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" tooltip="Spielzug durchführen">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="kategorienWaehlen" tooltip="kategorienWaehlen">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielerErmitteln" tooltip="spielerErmitteln">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen-kurz" tooltip="Spielzug durchführen-kurz">
+<persistable model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="handleResult(antwort:Result, frage:Question)" tooltip="handleResult(antwort:Result, frage:Question)">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6k232cey4lf"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissenheit" tooltip="Wissenheit">
+<persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" tooltip="Use Case Diagram2">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
@@ -692,24 +664,6 @@
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh3ijve7db5r3pa"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="getFrage()" tooltip="getFrage()">
-<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh3py5nbjmws65j"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="frageStellen()" tooltip="frageStellen()">
-<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh3pyllp9-fdrnf8"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
-<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
-<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
 </file>
 </mruList>
 </workbench>

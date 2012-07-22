@@ -1,5 +1,5 @@
 #
-#Tue Jun 26 17:02:52 CEST 2012
+#Sun Jul 22 19:57:09 CEST 2012
 idl.codegen.rename_files.@property_name=Rename file when renaming class
 idl.parser.free_comments_as_doc=false
 idl.codegen.rename_files=true

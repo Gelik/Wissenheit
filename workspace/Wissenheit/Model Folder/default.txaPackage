@@ -1555,4 +1555,114 @@
 			</node>
 		</node>
 	</node>
+	<node uin="j8ctxyh4yiltvl5sin3n">
+		<property name="$metaclass" value="StateMachine"/>
+		<property name="$name" value="StateMachine1"/>
+		<node uin="-acitv2h4yiltw132zfrv">
+			<property name="$metaclass" value="Region20"/>
+			<property name="$name" value="kein Spielende"/>
+			<node uin="k9ofrlh4yim4wzzecjdm">
+				<property name="$metaclass" value="PseudoState20"/>
+				<property name="$name" value="Initial1"/>
+				<property name="$kind" value="initial"/>
+				<link uin="ieje0rh4yinbpw-tjs2jp">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::k9ofrlh4yim4wzzecjdm:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yimd5t-gqielq:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yimd5t-gqielq">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="Datensammeln"/>
+				<node uin="-acitv2h4yimd68-ei3baj">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yine4k-khd3fe">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yimd5t-gqielq:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yiml85-ialrk4:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yiml85-ialrk4">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="Spiel Initialisieren"/>
+				<node uin="-acitv2h4yiml85-z9rzeu">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yiprqvqlu5c5">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yiml85-ialrk4:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yinh1v16gax8:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yinh1v16gax8">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="Spielzug ausführen"/>
+				<node uin="-acitv2h4yinh1v-4rwxtp">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yippkv1ugh1n">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yinh1v16gax8:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yinqli-tcx7s3:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yinqli-tcx7s3">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="Fragerunde"/>
+				<node uin="-acitv2h4yinqliyaq3yj">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yipwr5-8cy3lv">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yinqli-tcx7s3:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yinxvo-bl5wsg:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yinxvo-bl5wsg">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="nächsten Spielzug vorbereiten"/>
+				<node uin="-acitv2h4yinxw4rprlt1">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yipu7a-5ilrbu">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yinxvo-bl5wsg:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yinh1v16gax8:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+				<link uin="ieje0rh4yiqduhahouh7">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yinxvo-bl5wsg:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yiq1d4-kvp82w:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dh4yiq1d4-kvp82w">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="Highscore-Modus"/>
+				<node uin="-acitv2h4yiq1d4-f6gace">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rh4yiqorys2w2dd">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yiq1d4-kvp82w:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::6drk9lh4yiqmb4-uquuhj:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+				<link uin="ieje0rh4yiqqyd1qygxh">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<participant referencedUin="design:node:::-3uf15dh4yiq1d4-kvp82w:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dh4yimd5t-gqielq:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="6drk9lh4yiqmb4-uquuhj">
+				<property name="$metaclass" value="FinalState20"/>
+				<property name="$name" value="Final1"/>
+			</node>
+		</node>
+	</node>
 </nodeSet>

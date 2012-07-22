@@ -58,5 +58,45 @@
 			<property name="bounds" value="547,233,80,60"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="design:view:::V-jr6xbah3x2uve9-my1o5y">
+			<property name="bounds" value="243,178,150,104"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh4y8s9unrhzwxp">
+			<property name="bounds" value="64,96,160,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh4y6k232cey4lf">
+			<property name="bounds" value="708,-4,298,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-b8dyjih3x2y73rxchev5">
+			<property name="bounds" value="5,5,209,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh4y6c61b-y862n5">
+			<property name="bounds" value="708,87,310,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkh4y6b995cjlro5">
+			<property name="bounds" value="461,103,119,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-b8dyjih3x3im9n1644mx">
+			<property name="bounds" value="233,-4,143,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbah3x2qp9a3ufbhf">
+			<property name="bounds" value="461,-4,209,88"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhh3wyml32qni468">
+			<property name="bounds" value="144,187,95,121"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::fioz1h4ydo2ir-2btpbz">
+			<property name="bounds" value="233,87,190,72"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>

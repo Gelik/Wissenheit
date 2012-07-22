@@ -4788,3 +4788,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY com.borland.csf.license 1 1 2012-07-22 23:42:41.346
 !MESSAGE License expires in 74 days
+!SESSION 2012-07-22 23:45:46.483 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_29
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2012-07-22 23:45:58.839
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY com.borland.csf.license 1 1 2012-07-22 23:45:58.932
+!MESSAGE License expires in 74 days

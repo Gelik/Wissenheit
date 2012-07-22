@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="145" version="2.0">
+<workbench progressCount="159" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="154" y="32">
 <fastViewData fastViewLocation="1024">
@@ -52,6 +52,7 @@
 <part id="9"/>
 <part id="10"/>
 <part id="11"/>
+<part id="12"/>
 </presentation>
 </folder>
 </info>
@@ -74,7 +75,7 @@
 <editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" partName="Use Case Diagram2" title="Use Case Diagram2" tooltip="Use Case Diagram2" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
 </editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" partName="Spielzug durchfuehren" title="Spielzug durchfuehren" tooltip="Spielzug durchfuehren" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" partName="Spielzug durchfuehren" title="Spielzug durchfuehren" tooltip="Spielzug durchfuehren" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="State Diagram1" partName="State Diagram1" title="State Diagram1" tooltip="State Diagram1" workbook="DefaultEditorWorkbook">
@@ -83,7 +84,7 @@
 <editor id="com.borland.tg.gde.diagramEditor" name="spielStarten" partName="spielStarten" title="spielStarten" tooltip="spielStarten" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylqj8q-b1szm2"/>
 </editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="newPlayer" partName="newPlayer" title="newPlayer" tooltip="newPlayer" workbook="DefaultEditorWorkbook">
+<editor id="com.borland.tg.gde.diagramEditor" name="newPlayer" partName="newPlayer" title="newPlayer" tooltip="newPlayer" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
 </editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="kategorieSetzen" partName="kategorieSetzen" title="kategorieSetzen" tooltip="kategorieSetzen" workbook="DefaultEditorWorkbook">
@@ -91,6 +92,9 @@
 </editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" partName="spielfeldInitialisieren" title="spielfeldInitialisieren" tooltip="spielfeldInitialisieren" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren-kurz" partName="Spielzug durchfuehren-kurz" title="Spielzug durchfuehren-kurz" tooltip="Spielzug durchfuehren-kurz" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
 </editor>
 </editors>
 <views>
@@ -172,11 +176,10 @@
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
 <element element="com.tssap.selena.Resource:folder::Controller" model="model:project::Wissenheit"/>
 <element element="com.tssap.selena.Resource:folder::Controller/States" model="model:project::Wissenheit"/>
-<element element="jdt:e_class:src:Controller.States.State" model="model:project::Wissenheit"/>
 <element element="design:node:::-yrgd8eh3py2jyw-wtzn2t" model="model:project::Wissenheit"/>
 </expanded>
 <selection>
-<element element="design:view:::Vam8ynkh4ymn07j-ngk012" model="model:project::Wissenheit"/>
+<element element="design:view:::Vam8ynkh4y8s9unrhzwxp" model="model:project::Wissenheit"/>
 </selection>
 </viewState>
 </view>
@@ -484,22 +487,11 @@
 <navigationHistory>
 <editors>
 <editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </editors>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Invocation Specification]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Execution Specification]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4yn6kpa-qqvszv@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Invocation Specification]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
 <item historyLabel="newPlayer/[Call Message]" index="0">
 <position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|144(design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
@@ -632,8 +624,23 @@
 <item historyLabel="newPlayer/call" index="0">
 <position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item active="true" historyLabel="newPlayer/Interaction" index="0">
+<item historyLabel="newPlayer/newPlayer" index="0">
 <position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
+</item>
+<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-jr6xbah3x2uve9-my1o5y::design@node@@@8krugmh3x2v299afdbc6"/>
+</item>
+<item historyLabel="Use Case Diagram2/Spielzug durchfuehren" index="1">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-jr6xbah3x2uve9-my1o5y::design@node@@@8krugmh3x2v299afdbc6"/>
+</item>
+<item historyLabel="Activity Diagram2/Spielzug durchfuehren" index="2">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
+</item>
+<item historyLabel="Spielzug durchfuehren-kurz/Spielzug durchfuehren-kurz" index="3">
+<position model_uin="model:project::Wissenheit" uin="design:view:::fioz1h4ydo2ir-2btpbz"/>
+</item>
+<item active="true" historyLabel="Spielzug durchfuehren/Spielzug durchfuehren" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -655,6 +662,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren-kurz" tooltip="Spielzug durchfuehren-kurz">
+<persistable model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" tooltip="spielfeldInitialisieren">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
 </file>
@@ -696,9 +706,6 @@
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielerErmitteln" tooltip="spielerErmitteln">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
 </file>
 </mruList>
 </workbench>

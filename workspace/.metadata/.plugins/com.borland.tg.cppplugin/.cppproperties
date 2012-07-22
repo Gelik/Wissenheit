@@ -1,5 +1,5 @@
 #
-#Sun Jul 22 23:37:30 CEST 2012
+#Sun Jul 22 23:46:31 CEST 2012
 common.codegeneration.defaultfileextension_definition=cpp
 common.parser.sourceextensions.@property_type=3
 cpp.project.enable_wchar_t.@property_name=Support wchar_t as keyword

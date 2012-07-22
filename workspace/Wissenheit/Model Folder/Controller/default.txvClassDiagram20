@@ -5,5 +5,7 @@
 	<view uin="V1hexuhh3pvlsl6c0ioa8">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:Controller.Game">
+		</reference>
 	</view>
 </nodeSet>

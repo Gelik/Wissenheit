@@ -1,0 +1,23 @@
+aufgeräumt?
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   4h14s1dx.wcb.txt
+#	modified:   workspace/Wissenheit-UML/Model Folder/Sequence Diagram1.txvSequenceDiagram20
+#	modified:   workspace/Wissenheit-UML/Model Folder/Sequence Diagram2.txvSequenceDiagram20
+#	modified:   workspace/Wissenheit-UML/Model Folder/Sequence Diagram3.txvSequenceDiagram20
+#	modified:   workspace/Wissenheit-UML/Model Folder/Sequence Diagram4.txvSequenceDiagram20
+#	new file:   workspace/Wissenheit-UML/Model Folder/Spiel.getFrage1.txvSequenceDiagram20
+#	modified:   workspace/Wissenheit-UML/Model Folder/default.txaPackage
+#	modified:   workspace/Wissenheit-UML/Model Folder/frageStellen().txvSequenceDiagram20
+#	modified:   workspace/Wissenheit/Model Folder/default.txaPackage
+#	new file:   workspace/Wissenheit/Model Folder/ende()1.txvSequenceDiagram20
+#	new file:   workspace/Wissenheit/Model Folder/handleResult(antwort%15Result, frage%15Question).txvSequenceDiagram20
+#	new file:   workspace/Wissenheit/Model Folder/nameFarbeEingeben(name%15String, farbe%15Color)1.txvSequenceDiagram20
+#
+

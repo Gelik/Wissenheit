@@ -10,7 +10,7 @@
 		<reference referencedUin="design:node:::-yrgd8eh3py5npfhi7m6q">
 			<property name="$shortcutReference" value="true"/>
 			<property name="show_as_fullscreen" value="true"/>
-			<property name="bounds" value="5,5,903,335"/>
+			<property name="bounds" value="5,5,642,383"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="design:node:::-y8nsowh3py6ob2-lh6t75:-yrgd8eh3py5npfhi7m6q">
 				<property name="bounds" value="265,5,60,300"/>

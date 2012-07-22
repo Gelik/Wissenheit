@@ -887,11 +887,6 @@
 			<property name="$metaclass" value="SD20_Lifeline"/>
 			<property name="connectableElementName" value="a"/>
 			<property name="$name" value="Lifeline1"/>
-			<node uin="n68rpbh3py9lbwobh6z8">
-				<property name="$metaclass" value="SD20_StateInvariant"/>
-				<property name="$name" value="StateInvariant1"/>
-				<property name="constraintText" value="state=Fragerunde"/>
-			</node>
 			<node uin="c87hzvh3pybn0k70b8ec">
 				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
 				<property name="$name" value="SD20_ExecutionSpecification1"/>

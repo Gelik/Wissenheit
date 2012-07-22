@@ -541,4 +541,18 @@
 			<property name="$name" value="ActivityFinalNode20"/>
 		</node>
 	</node>
+	<node uin="-yrgd8eh4y6k233e8yoeq">
+		<property name="$metaclass" value="SD20_Interaction"/>
+		<property name="$name" value="Interaction"/>
+		<node uin="-y8nsowh4y6la7m-84omam">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="connectableElementName" value="a"/>
+			<property name="$name" value="Lifeline1"/>
+			<link uin="ieje0rh4y6lciuigvpvp">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowh4y6la7m-84omam:-yrgd8eh4y6k233e8yoeq" role="Client"></participant>
+				<participant referencedUin="design:node:::-yrgd8eh4y6k233e8yoeq" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
 </nodeSet>

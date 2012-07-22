@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="157" version="2.0">
+<workbench progressCount="145" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="154" y="32">
 <fastViewData fastViewLocation="1024">
@@ -40,17 +40,22 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="1"/>
 <part id="0"/>
+<part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="spielerErmitteln" partName="spielerErmitteln" title="spielerErmitteln" tooltip="spielerErmitteln" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
-</editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
 </editor>
@@ -59,6 +64,33 @@
 </editor>
 <editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" partName="Spielzug durchführen" title="Spielzug durchführen" tooltip="Spielzug durchführen" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="nameFarbeEingeben(name:String, farbe:Color)1" partName="nameFarbeEingeben(name:String, farbe:Color)1" title="nameFarbeEingeben(name:String, farbe:Color)1" tooltip="nameFarbeEingeben(name:String, farbe:Color)1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yi3qkcp35miu"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" partName="Use Case Diagram2" title="Use Case Diagram2" tooltip="Use Case Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" partName="Spielzug durchfuehren" title="Spielzug durchfuehren" tooltip="Spielzug durchfuehren" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="State Diagram1" partName="State Diagram1" title="State Diagram1" tooltip="State Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh4yilk2v-b5rza2"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="spielStarten" partName="spielStarten" title="spielStarten" tooltip="spielStarten" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylqj8q-b1szm2"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="newPlayer" partName="newPlayer" title="newPlayer" tooltip="newPlayer" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="kategorieSetzen" partName="kategorieSetzen" title="kategorieSetzen" tooltip="kategorieSetzen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ym6veajhiqzp"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" partName="spielfeldInitialisieren" title="spielfeldInitialisieren" tooltip="spielfeldInitialisieren" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
 </editor>
 </editors>
 <views>
@@ -138,10 +170,13 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
+<element element="com.tssap.selena.Resource:folder::Controller" model="model:project::Wissenheit"/>
+<element element="com.tssap.selena.Resource:folder::Controller/States" model="model:project::Wissenheit"/>
+<element element="jdt:e_class:src:Controller.States.State" model="model:project::Wissenheit"/>
 <element element="design:node:::-yrgd8eh3py2jyw-wtzn2t" model="model:project::Wissenheit"/>
 </expanded>
 <selection>
-<element element="design:node:::8krugmh3x2v299afdbc6" model="model:project::Wissenheit"/>
+<element element="design:view:::Vam8ynkh4ymn07j-ngk012" model="model:project::Wissenheit"/>
 </selection>
 </viewState>
 </view>
@@ -153,7 +188,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.tssap.selena.model.ui.navigator.view" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -398,6 +433,7 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="com.tssap.selena.model.ui.navigator.view"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@14c3ee7" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
 <fastViews>
@@ -430,11 +466,13 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@b5ca00" ratio="0.6695279" ratioLeft="468" ratioRight="231" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14c6244">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="com.borland.selena.modelmarker.modelbookmarks.view" label="LabelNotFound"/>
 <page content="com.borland.tg.bpm.simulation.ui.SV" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.17552336" ratioLeft="218" ratioRight="1024" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c6244"/>
@@ -445,160 +483,157 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
 </editors>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|104(design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|104(design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Invocation Specification]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Execution Specification]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yew2hk-4qo9mh@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yew2hk6oei2y@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Execution Specification]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4yn6kpa-qqvszv@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Invocation Specification]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_CombinedFragment1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Call Message]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|144(design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Execution Specification]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4yn6kpa-qqvszv@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_Int_MountingRegion1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Label]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/call" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yexhgq-j95dk1@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_CombinedFragment1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_ExecutionSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@c87hzvh4yex6yf-bndplz@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Label]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_Int_InvocationSpecification1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Call Message]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Spielzug durchführen/Spielzug durchführen" index="2">
-<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/null" index="1">
-<position/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/call" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
+<item historyLabel="newPlayer/[Label]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Activity Diagram1/Activity Diagram1" index="3">
-<position model_uin="model:project::Wissenheit" uin="design:view:::V-b8dyjih3x2y73rxchev5"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Spielzug durchführen/Spielzug durchführen" index="2">
-<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<item historyLabel="newPlayer/[Reply Message]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Spielzug durchführen/[Label]" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message_label@sd20_message|1|call|168(design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message|1|call|168(design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@3gja0h4ybfdqt-9d1n6y@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Spielzug durchführen/[Label]" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message_label@sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
+<item historyLabel="newPlayer/[Label]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="Spielzug durchführen/call" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y8s9unrhzwxp::sd20_message|1|call|255(design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv):sd20_message_container@design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@l2gqtvh4y9xaow-knf85v@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9bb-z2kk2n@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y9t9b7j10gr0@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr4mr6ddb@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y94mr0-zbque2@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91spl-c20u45@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y91sph-erthbo@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3h-8msy7a@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@7x5rzxh4y8wa3dxl3dpt@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-y8nsowh4y8tc73-tst9yc@-yrgd8eh4y8s9uof0vmvv:design@node@@@-yrgd8eh4y8s9uof0vmvv"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Reply Message]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|82(design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yevna9-hg9wbs@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yeradr7bqo6a@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/[Reply Message]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|147(design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yex6y0w7i9oq@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/SD20_InteractionOperand1" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yp8yhh4yewu7zuer15f@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@7chx8lh4yewu7j-n5l1s1@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_ExecutionSpecification1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4ynbgch-h1z079@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_Int_InvocationSpecification3" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/Interaction" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/[Label]" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/call" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|143(design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="kategorienWaehlen/call" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4yer1zawk9vvp::sd20_message|1|call|147(design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna):sd20_message_container@design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@l2gqtvh4yexhgq23bikw@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7zv36yho@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@7x5rzxh4yewu7j-vmzsxx@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@c87hzvh4yevna9-c6fgg7@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-y8nsowh4yevh28-tjmlmz@-yrgd8eh4yer1zq-dotvna:design@node@@@-yrgd8eh4yer1zq-dotvna"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
+<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="spielerErmitteln/Lifeline2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-y8nsowh3py3c3l1jqkxh@-yrgd8eh3py2jyw-wtzn2t:design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
+<item historyLabel="newPlayer/[Label]" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item historyLabel="spielerErmitteln/Lifeline1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-y8nsowh3py32ke-8pjszw@-yrgd8eh3py2jyw-wtzn2t:design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
+<item historyLabel="newPlayer/call" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
-<item active="true" historyLabel="spielerErmitteln/nameFarbeEingeben(name:String, farbe:Color)" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4y6c61b-y862n5::design@node@@@-yrgd8eh3py2jyw-wtzn2t"/>
+<item active="true" historyLabel="newPlayer/Interaction" index="0">
+<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -620,6 +655,39 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" tooltip="spielfeldInitialisieren">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="kategorieSetzen" tooltip="kategorieSetzen">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ym6veajhiqzp"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="newPlayer" tooltip="newPlayer">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielStarten" tooltip="spielStarten">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylqj8q-b1szm2"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="State Diagram1" tooltip="State Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh4yilk2v-b5rza2"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" tooltip="Spielzug durchfuehren">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" tooltip="Use Case Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
+<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="nameFarbeEingeben(name:String, farbe:Color)1" tooltip="nameFarbeEingeben(name:String, farbe:Color)1">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yi3qkcp35miu"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="spielerErmitteln.txvSequenceDiagram20" tooltip="Wissenheit/Model Folder/spielerErmitteln.txvSequenceDiagram20">
+<persistable path="/Wissenheit/Model Folder/spielerErmitteln.txvSequenceDiagram20"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" tooltip="Spielzug durchführen">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </file>
@@ -631,39 +699,6 @@
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielerErmitteln" tooltip="spielerErmitteln">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6c61b-y862n5"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen-kurz" tooltip="Spielzug durchführen-kurz">
-<persistable model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="handleResult(antwort:Result, frage:Question)" tooltip="handleResult(antwort:Result, frage:Question)">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y6k232cey4lf"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissenheit" tooltip="Wissenheit">
-<persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhgvavmzjs-fgipzv"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" tooltip="Use Case Diagram2">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name=".classpath" tooltip="Wissenheit/.classpath">
-<persistable path="/Wissenheit/.classpath"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Automat" tooltip="Automat">
-<persistable model="model:project::Wissenheit-UML" rc="design:view:::V-d9nhuoh3wx4hzx-9mk8on"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
 </file>
 </mruList>
 </workbench>

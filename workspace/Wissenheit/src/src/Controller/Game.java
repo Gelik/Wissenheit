@@ -7,7 +7,9 @@ import src.Model.Spielfeld;
 
 public class Game {
 
-	
+	/**
+	 * @supplierCardinality 2..4
+	 */
 	Spieler[] players;
 	private Kategorien lnkKategorien;
 /**
@@ -16,11 +18,6 @@ public class Game {
 
 	private Kategorie lnkKategorie;
 	private Spielfeld lnkSpielfeld;
-	/**
-	 * @supplierCardinality 2..4
-	 */
-
-	private Spieler lnkSpieler;
 
 	boolean newPlayer() {
 		//Commented automatically

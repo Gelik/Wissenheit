@@ -5,5 +5,19 @@
 	<view uin="fllf0h4zev7b7-u4nbgx">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:src.states.State">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.SpielGestartet">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.NameUndFarbeGewaehlt">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.KategorieGewaehlt">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.Wuerfelzustand">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.StreiterBewegt">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.StreiterAusgewaehlt">
+		</reference>
 	</view>
 </nodeSet>

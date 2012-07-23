@@ -32,9 +32,10 @@
 						<property name="smooth_bendpoints" value="100,135,177,135"/>
 						<property name="location_set_by_user" value="true"/>
 						<reference referencedUin="label:label:design:link:::ieje0rh4yk4esf-x78nkr:-3uf15dh4yk1zqn-d810e5:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">
-							<property name="bounds" value="40,220,58,19"/>
-							<property name="weight" value="0.43846153846153846"/>
+							<property name="bounds" value="60,120,58,21"/>
+							<property name="weight" value="0.20930232558139536"/>
 							<property name="location_set_by_user" value="true"/>
+							<property name="bounds_setted_by_user" value="true"/>
 						</reference>
 					</reference>
 					<reference referencedUin="design:node:::-acitv2h4yk1zr3-oil7sb:-3uf15dh4yk1zqn-d810e5:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">

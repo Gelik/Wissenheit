@@ -2291,6 +2291,15 @@
 	<node uin="-yrgd8eh4zc8cw6fzbayg">
 		<property name="$metaclass" value="SD20_Interaction"/>
 		<property name="$name" value="Game.moveWissensstreiter(streiter:Streiter, felder:int)"/>
+		<node uin="-y8nsowh4zdd91c-198f2a">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline4"/>
+			<property name="connectableElementName" value="State"/>
+			<node uin="c87hzvh4zddlm4rgcua">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+		</node>
 		<node uin="-y8nsowh4zcf5ho-2t8n4q">
 			<property name="$metaclass" value="SD20_Lifeline"/>
 			<property name="$name" value="Lifeline3"/>
@@ -2342,6 +2351,13 @@
 					<property name="sd20_reply_message_exists" value="true"/>
 					<property name="call_cachedSequenceNumber" value="1.1"/>
 				</node>
+				<node uin="l2gqtvh4zddlm3-iigovd">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification2"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvh4zddlm4rgcua:-y8nsowh4zdd91c-198f2a:-yrgd8eh4zc8cw6fzbayg"/>
+					<property name="call_cachedSequenceNumber" value="1.2"/>
+					<property name="signalOrOperationName" value="setState(State.StreiterBewegt)"/>
+				</node>
 			</node>
 			<link uin="ieje0rh4zc9xfalwku0f">
 				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
@@ -2353,6 +2369,11 @@
 				<participant referencedUin="design:node:::-y8nsowh4zc9vhc-c58ry6:-yrgd8eh4zc8cw6fzbayg" role="Client"></participant>
 				<participant referencedUin="design:node:::-y8nsowh4zcd6dspzya3:-yrgd8eh4zc8cw6fzbayg" role="Supplier"></participant>
 			</link>
+			<link uin="ieje0rh4zddlm84xdfrp">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowh4zc9vhc-c58ry6:-yrgd8eh4zc8cw6fzbayg" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowh4zdd91c-198f2a:-yrgd8eh4zc8cw6fzbayg" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="l2gqtvh4zca2ok8xtknl">
 			<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
@@ -2361,6 +2382,31 @@
 			<property name="signalOrOperationName" value="moveWissensstreiter(streiter:Streiter, felder:Integer)"/>
 			<property name="call_cachedSequenceNumber" value="1"/>
 			<property name="sd20_reply_message_exists" value="true"/>
+		</node>
+	</node>
+	<node uin="-yrgd8eh4zdfz5jgmgmf4">
+		<property name="$metaclass" value="SD20_Interaction"/>
+		<property name="$name" value="Game.nextPlayer()"/>
+		<node uin="-y8nsowh4zdghm7-o5agsk">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline1"/>
+			<property name="connectableElementName" value="self"/>
+			<node uin="c87hzvh4zdh32c-9d2w7m">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+				<node uin="-xlvgpbh4zdjm32-lfxp8y">
+					<property name="$metaclass" value="SD20_ActionExecutionSpecification"/>
+					<property name="$name" value="ActionExecution1"/>
+					<property name="actionText" value="actualPlayer=players[(actualPlayerNum+1)%players.length]"/>
+				</node>
+			</node>
+		</node>
+		<node uin="l2gqtvh4zdh32dz39tty">
+			<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+			<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+			<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4"/>
+			<property name="call_cachedSequenceNumber" value="1"/>
+			<property name="signalOrOperationName" value="nextPlayer()"/>
 		</node>
 	</node>
 </nodeSet>

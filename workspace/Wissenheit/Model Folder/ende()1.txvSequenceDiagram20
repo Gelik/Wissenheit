@@ -12,6 +12,7 @@
 			<property name="show_as_fullscreen" value="true"/>
 			<property name="bounds" value="5,5,848,513"/>
 			<property name="location_set_by_user" value="true"/>
+			<property name="background_color" value="255,255,255"/>
 			<reference referencedUin="design:node:::l2gqtvh3pyjs3t-tkivir:-yrgd8eh3pyj82r-9rzvyi">
 				<property name="bounds" value="182,73,16,16"/>
 				<reference referencedUin="sd20_message_container:design:node:::l2gqtvh3pyjs3t-tkivir:-yrgd8eh3pyj82r-9rzvyi">

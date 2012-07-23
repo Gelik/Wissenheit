@@ -9,9 +9,9 @@
 			<property name="bounds" value="35,99,175,152"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
-			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkSpielfeld">
-				<property name="sourceAnchor" value="215,199"/>
-				<property name="targetAnchor" value="580,280"/>
+			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkSpielfeld1">
+				<property name="sourceAnchor" value="215,198"/>
+				<property name="targetAnchor" value="580,281"/>
 				<property name="bendpoints" value=""/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkKategorie">
@@ -93,6 +93,10 @@
 			<property name="bounds" value="375,275,129,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Streiter:owner">
+				<property name="sourceAnchor" value="440,280"/>
+				<property name="targetAnchor" value="440,210"/>
+			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.WissensStand">
 			<property name="bounds" value="575,35,161,80"/>

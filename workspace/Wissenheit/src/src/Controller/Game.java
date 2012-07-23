@@ -8,16 +8,22 @@ import src.Model.Spielfeld;
 public class Game {
 
 	/**
+	 * @link composition
+	 */
+	private Spielfeld lnkSpielfeld1;
+
+	/**
+	 * @directed true
+	 * @link composition
 	 * @supplierCardinality 2..4
 	 */
 	Spieler[] players;
 	private Kategorien lnkKategorien;
-/**
+	/**
 	 * @supplierCardinality 4
 	 */
 
 	private Kategorie lnkKategorie;
-	private Spielfeld lnkSpielfeld;
 
 	boolean newPlayer() {
 		//Commented automatically

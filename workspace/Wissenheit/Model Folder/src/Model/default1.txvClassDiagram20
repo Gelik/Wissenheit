@@ -11,7 +11,7 @@
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Spieler">
-			<property name="bounds" value="5,5,119,107"/>
+			<property name="bounds" value="5,5,119,122"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:streiter">
 				<property name="sourceAnchor" value="129,88"/>
@@ -29,11 +29,15 @@
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Streiter">
-			<property name="bounds" value="246,115,80,80"/>
+			<property name="bounds" value="246,115,104,80"/>
 			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Streiter:owner">
+				<property name="sourceAnchor" value="251,139"/>
+				<property name="targetAnchor" value="129,85"/>
+			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Spielfeld">
-			<property name="bounds" value="195,255,80,80"/>
+			<property name="bounds" value="195,255,136,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Spielfeld:lnkWissensStand">
 				<property name="sourceAnchor" value="259,260"/>
@@ -51,7 +55,7 @@
 			</reference>
 		</reference>
 		<reference referencedUin="design:view:::521ngh4zev45jdugjsm">
-			<property name="bounds" value="15,175,116,203"/>
+			<property name="bounds" value="15,175,122,219"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Kategorie">
@@ -87,6 +91,22 @@
 			<reference referencedUin="srcmdl.connectoraspect:e_class:src:src.Model.AssociationClass">
 				<property name="sourceAnchor" value="179,405"/>
 				<property name="targetAnchor" value="179,30"/>
+			</reference>
+		</reference>
+		<reference referencedUin="srcmdl.linkaspect:e_class:src:src.Model.AssociationClass1">
+			<property name="bounds" value="147,-4,60,30"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="association-end:l_ast:src:src.Model.AssociationClass1:lnkSpielfeld">
+				<property name="sourceAnchor" value="206,18"/>
+				<property name="targetAnchor" value="206,260"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.AssociationClass1">
+			<property name="bounds" value="5,5,123,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="srcmdl.connectoraspect:e_class:src:src.Model.AssociationClass1">
+				<property name="sourceAnchor" value="133,20"/>
+				<property name="targetAnchor" value="160,20"/>
 			</reference>
 		</reference>
 	</view>

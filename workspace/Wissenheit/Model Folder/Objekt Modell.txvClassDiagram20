@@ -6,33 +6,33 @@
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="$name" value="Objekt Modell"/>
 		<reference referencedUin="jdt:e_class:src:src.Controller.Game">
-			<property name="bounds" value="35,99,183,140"/>
+			<property name="bounds" value="35,99,195,152"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkSpielfeld1">
-				<property name="sourceAnchor" value="223,196"/>
+				<property name="sourceAnchor" value="235,202"/>
 				<property name="targetAnchor" value="580,281"/>
 				<property name="bendpoints" value=""/>
 			</reference>
-			<reference referencedUin="jdt:e_method:src:src.Controller.Game.kategorieSetzen:kategorieSetzen">
-			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkKategorie">
-				<property name="sourceAnchor" value="182,244"/>
+				<property name="sourceAnchor" value="199,256"/>
 				<property name="targetAnchor" value="318,400"/>
 				<property name="bendpoints" value=""/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Controller.Game:lnkKategorie">
-					<property name="bounds" value="314,375,10,17"/>
+					<property name="bounds" value="315,373,10,19"/>
 				</reference>
+			</reference>
+			<reference referencedUin="jdt:e_method:src:src.Controller.Game.kategorieSetzen:kategorieSetzen">
 			</reference>
 			<reference referencedUin="jdt:e_method:src:src.Controller.Game.newPlayer:newPlayer">
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkFassade">
-				<property name="sourceAnchor" value="223,230"/>
+				<property name="sourceAnchor" value="235,239"/>
 				<property name="targetAnchor" value="520,415"/>
 				<property name="bendpoints" value=""/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkKategorien">
-				<property name="sourceAnchor" value="108,244"/>
+				<property name="sourceAnchor" value="108,256"/>
 				<property name="targetAnchor" value="108,360"/>
 				<property name="bendpoints" value=""/>
 			</reference>
@@ -41,10 +41,10 @@
 			<reference referencedUin="jdt:e_method:src:src.Controller.Game.chooseWissensstreiter:chooseWissensstreiter">
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:players">
-				<property name="sourceAnchor" value="223,115"/>
+				<property name="sourceAnchor" value="235,115"/>
 				<property name="targetAnchor" value="388,115"/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Controller.Game:players">
-					<property name="bounds" value="354,95,24,17"/>
+					<property name="bounds" value="356,93,22,19"/>
 				</reference>
 			</reference>
 			<reference referencedUin="jdt:l_dpn:src:src.Controller.Game:lnkKategorien">
@@ -56,14 +56,14 @@
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Spieler">
-			<property name="bounds" value="383,83,124,114"/>
+			<property name="bounds" value="383,83,124,122"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:stat">
 				<property name="sourceAnchor" value="512,94"/>
 				<property name="targetAnchor" value="580,94"/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spieler:stat">
-					<property name="bounds" value="560,74,10,17"/>
+					<property name="bounds" value="560,72,10,19"/>
 				</reference>
 			</reference>
 			<reference referencedUin="property:e_property:jdt=e_class=src=src.Model.Spieler:farbe">
@@ -71,10 +71,10 @@
 				<property name="location_set_by_user" value="true"/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:streiter">
-				<property name="sourceAnchor" value="448,202"/>
+				<property name="sourceAnchor" value="448,210"/>
 				<property name="targetAnchor" value="448,280"/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spieler:streiter">
-					<property name="bounds" value="451,253,10,17"/>
+					<property name="bounds" value="451,251,10,19"/>
 				</reference>
 			</reference>
 			<reference referencedUin="property:e_property:jdt=e_class=src=src.Model.Spieler:name">
@@ -83,7 +83,7 @@
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Spielfeld">
-			<property name="bounds" value="575,255,133,80"/>
+			<property name="bounds" value="575,255,136,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<property name="collapsedCompartments" value=""/>
@@ -92,7 +92,7 @@
 				<property name="targetAnchor" value="613,120"/>
 				<property name="bendpoints" value=""/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spielfeld:lnkWissensStand">
-					<property name="bounds" value="616,123,30,17"/>
+					<property name="bounds" value="616,121,28,19"/>
 				</reference>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Spielfeld:lnkStreiter">
@@ -100,7 +100,7 @@
 				<property name="targetAnchor" value="509,323"/>
 				<property name="bendpoints" value=""/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spielfeld:lnkStreiter">
-					<property name="bounds" value="519,303,30,17"/>
+					<property name="bounds" value="519,301,28,19"/>
 				</reference>
 			</reference>
 		</reference>
@@ -110,11 +110,11 @@
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.Model.Streiter:owner">
 				<property name="sourceAnchor" value="440,280"/>
-				<property name="targetAnchor" value="440,202"/>
+				<property name="targetAnchor" value="440,210"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.WissensStand">
-			<property name="bounds" value="575,35,164,80"/>
+			<property name="bounds" value="575,35,161,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 		</reference>
@@ -128,7 +128,7 @@
 				<property name="targetAnchor" value="280,439"/>
 				<property name="bendpoints" value=""/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Kategorien:lnkKategorie">
-					<property name="bounds" value="246,419,24,17"/>
+					<property name="bounds" value="249,417,21,19"/>
 				</reference>
 			</reference>
 		</reference>
@@ -138,7 +138,7 @@
 			<property name="$shortcutReference" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.Model.Fassade">
-			<property name="bounds" value="515,395,183,114"/>
+			<property name="bounds" value="515,395,191,124"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:e_method:src:src.Model.Fassade.chooseWissensstreiter:chooseWissensstreiter">

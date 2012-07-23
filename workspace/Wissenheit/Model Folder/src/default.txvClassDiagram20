@@ -11,7 +11,7 @@
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::915rfh4zev45jcwwz2w">
-			<property name="bounds" value="111,5,116,203"/>
+			<property name="bounds" value="235,305,122,235"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::cz83yh4zev5im-ektp93">
@@ -19,11 +19,11 @@
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::fllf0h4zev7b7-u4nbgx">
-			<property name="bounds" value="205,205,80,60"/>
+			<property name="bounds" value="415,135,160,171"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::dlpw6h4zev1eu-evs2xt">
-			<property name="bounds" value="5,5,116,123"/>
+			<property name="bounds" value="34,5,122,187"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::fz4sch4zevam4-dezm7">
@@ -31,7 +31,7 @@
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::hav1bh4zeuyckd3i7h5">
-			<property name="bounds" value="105,205,80,60"/>
+			<property name="bounds" value="155,191,80,60"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

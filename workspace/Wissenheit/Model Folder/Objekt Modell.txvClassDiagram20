@@ -9,15 +9,9 @@
 			<property name="bounds" value="35,99,165,140"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
-<<<<<<< HEAD
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkSpielfeld1">
 				<property name="sourceAnchor" value="215,198"/>
 				<property name="targetAnchor" value="580,281"/>
-=======
-			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkSpielfeld">
-				<property name="sourceAnchor" value="205,193"/>
-				<property name="targetAnchor" value="580,280"/>
->>>>>>> 26130095360844399d06beb23c6b25c33b496c14
 				<property name="bendpoints" value=""/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.Controller.Game:lnkKategorie">

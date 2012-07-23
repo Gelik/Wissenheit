@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="159" version="2.0">
+<workbench progressCount="151" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="154" y="32">
 <fastViewData fastViewLocation="1024">
@@ -29,8 +29,8 @@
 <coolItem id="com.borland.dsl.domain.ui.editors.DomainEditor" itemType="typePlaceholder" x="85" y="22"/>
 <coolItem id="com.borland.dsl.project.dsl.presentation.DslEditorID" itemType="typePlaceholder" x="61" y="22"/>
 <coolItem id="com.borland.dsl.diagram.ui.DiagramEditorID" itemType="typePlaceholder" x="61" y="22"/>
-<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -41,60 +41,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="kategorienWaehlen" partName="kategorienWaehlen" title="kategorienWaehlen" tooltip="kategorienWaehlen" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" partName="Spielzug durchführen" title="Spielzug durchführen" tooltip="Spielzug durchführen" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="nameFarbeEingeben(name:String, farbe:Color)1" partName="nameFarbeEingeben(name:String, farbe:Color)1" title="nameFarbeEingeben(name:String, farbe:Color)1" tooltip="nameFarbeEingeben(name:String, farbe:Color)1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yi3qkcp35miu"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" partName="Activity Diagram2" title="Activity Diagram2" tooltip="Activity Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" partName="Use Case Diagram2" title="Use Case Diagram2" tooltip="Use Case Diagram2" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
-</editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" partName="Spielzug durchfuehren" title="Spielzug durchfuehren" tooltip="Spielzug durchfuehren" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="State Diagram1" partName="State Diagram1" title="State Diagram1" tooltip="State Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh4yilk2v-b5rza2"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="spielStarten" partName="spielStarten" title="spielStarten" tooltip="spielStarten" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylqj8q-b1szm2"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="newPlayer" partName="newPlayer" title="newPlayer" tooltip="newPlayer" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="kategorieSetzen" partName="kategorieSetzen" title="kategorieSetzen" tooltip="kategorieSetzen" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ym6veajhiqzp"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" partName="spielfeldInitialisieren" title="spielfeldInitialisieren" tooltip="spielfeldInitialisieren" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren-kurz" partName="Spielzug durchfuehren-kurz" title="Spielzug durchfuehren-kurz" tooltip="Spielzug durchfuehren-kurz" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
+<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="Objekt Modell.txvClassDiagram20" partName="Objekt Modell.txvClassDiagram20" path="D:/Wissenheit/workspace/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20" title="Objekt Modell.txvClassDiagram20" tooltip="Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6152" selectionTopPixel="1637"/>
 </editor>
 </editors>
 <views>
@@ -174,12 +127,9 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
-<element element="com.tssap.selena.Resource:folder::Controller" model="model:project::Wissenheit"/>
-<element element="com.tssap.selena.Resource:folder::Controller/States" model="model:project::Wissenheit"/>
-<element element="design:node:::-yrgd8eh3py2jyw-wtzn2t" model="model:project::Wissenheit"/>
 </expanded>
 <selection>
-<element element="design:view:::Vam8ynkh4y8s9unrhzwxp" model="model:project::Wissenheit"/>
+<element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
 </selection>
 </viewState>
 </view>
@@ -191,7 +141,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -486,161 +436,14 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V1hexuhh4zmpuc0-brs5at"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20"/>
 </editors>
-<item historyLabel="newPlayer/[Call Message]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|144(design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
+<item historyLabel="/[Class Diagram]" index="0">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V1hexuhh4zmpuc0-brs5at"/>
 </item>
-<item historyLabel="newPlayer/[Execution Specification]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4yn6kpa-qqvszv@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn6kpa-zdgf01@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_Int_MountingRegion1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Label]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/call" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_CombinedFragment1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Label]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Call Message]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|101(design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yn164f-w87sgs@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/call" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Label]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Reply Message]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Label]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Reply Message]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/Interaction" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Reply Message]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|reply|58(design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ym1vu9bvfe88@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_ExecutionSpecification1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@c87hzvh4ynbgch-h1z079@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_Int_InvocationSpecification3" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/call" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|143(design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4ynbgc2ez3cp7@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8-5qfhox@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand1" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8agok2v@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/SD20_InteractionOperand2" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yp8yhh4yn3om8-7efkx@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@7chx8lh4yn3olt-hezdcw@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/[Label]" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message_label@sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/call" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::sd20_message|1|call|142(design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky):sd20_message_container@design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@l2gqtvh4yncf28ojgwlw@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3om8emjc7f@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@7x5rzxh4yn3oltf5cpqo@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@c87hzvh4ym1vu939k9e@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-y8nsowh4ylyyncf0ovnt@-yrgd8eh4ylxmx6n6dkky:design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="newPlayer/newPlayer" index="0">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@Vam8ynkh4ylxmx6f6uc57::design@node@@@-yrgd8eh4ylxmx6n6dkky"/>
-</item>
-<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-jr6xbah3x2uve9-my1o5y::design@node@@@8krugmh3x2v299afdbc6"/>
-</item>
-<item historyLabel="Use Case Diagram2/Spielzug durchfuehren" index="1">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-jr6xbah3x2uve9-my1o5y::design@node@@@8krugmh3x2v299afdbc6"/>
-</item>
-<item historyLabel="Activity Diagram2/Spielzug durchfuehren" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@V-b8dyjih3x3im9n1644mx::design@node@@@-46k66rh3x3iu6c3n0v74"/>
-</item>
-<item historyLabel="Spielzug durchfuehren-kurz/Spielzug durchfuehren-kurz" index="3">
-<position model_uin="model:project::Wissenheit" uin="design:view:::fioz1h4ydo2ir-2btpbz"/>
-</item>
-<item active="true" historyLabel="Spielzug durchfuehren/Spielzug durchfuehren" index="4">
-<position model_uin="model:project::Wissenheit" uin="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<item active="true" historyLabel="Objekt Modell.txvClassDiagram20" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -662,6 +465,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Objekt Modell.txvClassDiagram20" tooltip="Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20">
+<persistable path="/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
+<persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhh4zmpuc0-brs5at"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren-kurz" tooltip="Spielzug durchfuehren-kurz">
 <persistable model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
 </file>
@@ -700,12 +509,6 @@
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchführen" tooltip="Spielzug durchführen">
 <persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="kategorienWaehlen" tooltip="kategorienWaehlen">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yer1zawk9vvp"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x2y73rxchev5"/>
 </file>
 </mruList>
 </workbench>

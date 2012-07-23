@@ -5,19 +5,44 @@
 	<view uin="fllf0h4zev7b7-u4nbgx">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
-		<reference referencedUin="jdt:e_class:src:src.states.State">
-		</reference>
+		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="jdt:e_class:src:src.states.SpielGestartet">
+			<property name="bounds" value="141,125,109,80"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.states.NameUndFarbeGewaehlt">
-		</reference>
-		<reference referencedUin="jdt:e_class:src:src.states.KategorieGewaehlt">
+			<property name="bounds" value="5,245,169,80"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.states.Wuerfelzustand">
+			<property name="bounds" value="5,5,117,80"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.states.StreiterBewegt">
+			<property name="bounds" value="5,125,116,80"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.states.StreiterAusgewaehlt">
+			<property name="bounds" value="142,5,144,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.KategorieGewaehlt">
+			<property name="bounds" value="305,-4,137,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:src.states.KategorieGewaehlt:State">
+				<property name="sourceAnchor" value="375,81"/>
+				<property name="targetAnchor" value="375,100"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.states.State">
+			<property name="bounds" value="324,95,89,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.states.State:state">
+				<property name="sourceAnchor" value="418,176"/>
+				<property name="targetAnchor" value="414,180"/>
+				<property name="bendpoints" value="447,176,447,209,414,209"/>
+				<property name="smooth_bendpoints" value="447,176,447,209,414,209"/>
+			</reference>
 		</reference>
 	</view>
 </nodeSet>

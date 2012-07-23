@@ -9,29 +9,53 @@
 		<property name="$name" value="nextPlayer"/>
 		<reference referencedUin="design:node:::-yrgd8eh4zdfz5jgmgmf4">
 			<property name="$shortcutReference" value="true"/>
-			<property name="bounds" value="5,5,444,337"/>
+			<property name="bounds" value="5,5,540,337"/>
 			<property name="location_set_by_user" value="true"/>
-			<reference referencedUin="design:node:::-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
-				<property name="bounds" value="65,5,302,300"/>
+			<reference referencedUin="design:node:::-y8nsowh4zokpud-ezpqjr:-yrgd8eh4zdfz5jgmgmf4">
+				<property name="bounds" value="425,5,60,300"/>
 				<property name="location_set_by_user" value="true"/>
-				<reference referencedUin="design:node:::c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
-					<property name="bounds" value="141,43,20,79"/>
-					<property name="location_set_by_user" value="true"/>
-					<reference referencedUin="design:node:::-xlvgpbh4zdjm32-lfxp8y:c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
-						<property name="bounds" value="-141,40,302,25"/>
-						<property name="location_set_by_user" value="true"/>
-						<property name="bounds_setted_by_user" value="true"/>
-					</reference>
+				<reference referencedUin="design:node:::ffv7bh4zokzq878ipgi:-y8nsowh4zokpud-ezpqjr:-yrgd8eh4zdfz5jgmgmf4">
+					<property name="bounds" value="20,143,20,24"/>
 				</reference>
 			</reference>
 			<reference referencedUin="design:node:::l2gqtvh4zdh32dz39tty:-yrgd8eh4zdfz5jgmgmf4">
-				<property name="bounds" value="138,100,16,16"/>
+				<property name="bounds" value="149,100,16,16"/>
 				<property name="location_set_by_user" value="true"/>
 				<reference referencedUin="sd20_message_container:design:node:::l2gqtvh4zdh32dz39tty:-yrgd8eh4zdfz5jgmgmf4">
 					<property name="bounds" value="-12,-12,0,0"/>
 					<reference referencedUin="sd20_message|1|call|58(design:node:::l2gqtvh4zdh32dz39tty:-yrgd8eh4zdfz5jgmgmf4)">
-						<property name="sourceAnchor" value="161,138"/>
-						<property name="targetAnchor" value="221,138"/>
+						<property name="sourceAnchor" value="172,140"/>
+						<property name="targetAnchor" value="232,140"/>
+					</reference>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+				<property name="bounds" value="65,5,324,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::n68rpbh4zok2gm-nzuxqv:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+					<property name="bounds" value="140,83,45,19"/>
+					<property name="location_set_by_user" value="true"/>
+					<property name="bounds_setted_by_user" value="true"/>
+				</reference>
+				<reference referencedUin="design:node:::c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+					<property name="bounds" value="152,60,20,123"/>
+					<property name="location_set_by_user" value="true"/>
+					<reference referencedUin="design:node:::buy4oh4zokzq8-c15ea7:c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+						<property name="bounds" value="0,83,20,24"/>
+						<property name="location_set_by_user" value="true"/>
+						<property name="background_color" value="240,240,240"/>
+						<reference referencedUin="sd20_message_container:design:node:::buy4oh4zokzq8-c15ea7:c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+							<property name="bounds" value="0,0,0,0"/>
+							<reference referencedUin="sd20_message|1|call|103(design:node:::buy4oh4zokzq8-c15ea7:c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4)">
+								<property name="sourceAnchor" value="252,240"/>
+								<property name="targetAnchor" value="460,240"/>
+							</reference>
+						</reference>
+					</reference>
+					<reference referencedUin="design:node:::-xlvgpbh4zdjm32-lfxp8y:c87hzvh4zdh32c-9d2w7m:-y8nsowh4zdghm7-o5agsk:-yrgd8eh4zdfz5jgmgmf4">
+						<property name="bounds" value="-152,40,324,25"/>
+						<property name="location_set_by_user" value="true"/>
+						<property name="bounds_setted_by_user" value="true"/>
 					</reference>
 				</reference>
 			</reference>

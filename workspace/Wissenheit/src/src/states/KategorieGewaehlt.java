@@ -1,3 +1,3 @@
 package src.states;
-public class KategorieGewaehlt {
+public class KategorieGewaehlt extends State{
 }

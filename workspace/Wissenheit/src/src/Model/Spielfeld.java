@@ -18,9 +18,17 @@ public class Spielfeld {
 	 */
 	
 	private src.Model.WissensStand lnkWissensStand;
+	Streiter getMyStreiter() {
+		//Commented automatically
+		//return;
+		return null;
+	}
 	/**
 	 * @directed true
 	 * @supplierCardinality 0..12
 	 */
+	void move() {
+		return;
+	}
 
 }

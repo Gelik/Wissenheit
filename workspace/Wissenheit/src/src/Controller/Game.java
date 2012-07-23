@@ -8,6 +8,7 @@ import src.Model.Spielfeld;
 public class Game {
 
 	
+	Spieler[] players;
 	private Kategorien lnkKategorien;
 /**
 	 * @supplierCardinality 4
@@ -20,6 +21,12 @@ public class Game {
 	 */
 
 	private Spieler lnkSpieler;
+
+	boolean newPlayer() {
+		//Commented automatically
+		//return;
+		return false;
+	}
 
 	public void kategorieSetzen() {
 		return;
@@ -35,5 +42,13 @@ public class Game {
 
 	public int wuerfeln() {
 		return 0;
+	}
+
+	public Spieler[] getPlayers() {
+		return players;
+	}
+
+	public void setPlayers(Spieler[] property1) {
+		this.players = property1;
 	}
 }

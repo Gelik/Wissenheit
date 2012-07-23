@@ -40,7 +40,8 @@ public class Game {
 		return;
 	}
 
-	public void chooseWissensstreiter() {
+	public boolean chooseWissensstreiter() {
+		return false;
 
 	}
 

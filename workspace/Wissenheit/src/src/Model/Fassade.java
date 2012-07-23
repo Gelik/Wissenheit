@@ -1,13 +1,13 @@
 package src.Model;
+
 public interface Fassade {
 
-	void showStartingWindow();
+	public boolean chooseWissensstreiter();
 
-	void startGame();
+	public void kategorieSetzen();
 
-	void spielfeldZeichnen();
+	public int wuerfeln();
 
-	void printStreiterOnScreen();
+	public boolean newPlayer();
 
-	boolean updateSpielfeld();
 }

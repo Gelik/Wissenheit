@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="915rfh4zev45jcwwz2w">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:src.Model.WissensStand">
+			<property name="bounds" value="295,5,104,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Spieler">
+			<property name="bounds" value="5,5,119,107"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:streiter">
+				<property name="sourceAnchor" value="129,88"/>
+				<property name="targetAnchor" value="251,142"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spieler:streiter">
+					<property name="bounds" value="232,112,10,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:stat">
+				<property name="sourceAnchor" value="129,50"/>
+				<property name="targetAnchor" value="300,50"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spieler:stat">
+					<property name="bounds" value="280,28,10,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Streiter">
+			<property name="bounds" value="246,115,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Spielfeld">
+			<property name="bounds" value="195,255,80,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Spielfeld:lnkWissensStand">
+				<property name="sourceAnchor" value="259,260"/>
+				<property name="targetAnchor" value="341,90"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spielfeld:lnkWissensStand">
+					<property name="bounds" value="297,98,28,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Spielfeld:lnkStreiter">
+				<property name="sourceAnchor" value="259,260"/>
+				<property name="targetAnchor" value="265,200"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Spielfeld:lnkStreiter">
+					<property name="bounds" value="232,201,28,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::521ngh4zev45jdugjsm">
+			<property name="bounds" value="15,175,116,203"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Kategorie">
+			<property name="bounds" value="143,75,83,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Kategorien">
+			<property name="bounds" value="264,354,153,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Kategorien:lnkKategorie">
+				<property name="sourceAnchor" value="296,359"/>
+				<property name="targetAnchor" value="206,160"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.Model.Kategorien:lnkKategorie">
+					<property name="bounds" value="221,169,21,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="srcmdl.linkaspect:e_class:src:src.Model.AssociationClass">
+			<property name="bounds" value="143,-4,60,30"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="association-end:l_ast:src:src.Model.AssociationClass:lnkKategorien">
+				<property name="sourceAnchor" value="182,28"/>
+				<property name="targetAnchor" value="300,359"/>
+			</reference>
+			<reference referencedUin="association-end:l_ast:src:src.Model.AssociationClass:lnkKategorien1">
+				<property name="sourceAnchor" value="179,30"/>
+				<property name="targetAnchor" value="296,359"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.AssociationClass">
+			<property name="bounds" value="145,400,116,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="srcmdl.connectoraspect:e_class:src:src.Model.AssociationClass">
+				<property name="sourceAnchor" value="179,405"/>
+				<property name="targetAnchor" value="179,30"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="521ngh4zev45jdugjsm">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:src.Model.WissensStand">
+			<property name="bounds" value="138,-4,104,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Spieler">
+			<property name="bounds" value="0,0,119,92"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.Model.Spieler:stat">
+				<property name="sourceAnchor" value="124,43"/>
+				<property name="targetAnchor" value="143,43"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Streiter">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Spielfeld">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Kategorie">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.Model.Kategorien">
+		</reference>
+	</view>
+</nodeSet>

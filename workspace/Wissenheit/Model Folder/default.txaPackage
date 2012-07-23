@@ -65,12 +65,12 @@
 		<link uin="ieje0rh4zbxnex24sm7p">
 			<property name="$metaclass" value="SD20_Interaction_LinkToContext"/>
 			<participant referencedUin="design:node:::-yrgd8eh3pwz30h5ioo5b" role="Client"></participant>
-			<participant referencedUin="jdt:e_class:src:Controller.Game" role="Supplier"></participant>
+			<participant referencedUin="jdt:e_class:src:src.Controller.Game" role="Supplier"></participant>
 		</link>
 		<link uin="ieje0rh4zc3iwa-tghqaa">
 			<property name="$metaclass" value="SD20_Interaction_LinkToSpecification"/>
 			<participant referencedUin="design:node:::-yrgd8eh3pwz30h5ioo5b" role="Client"></participant>
-			<participant referencedUin="jdt:e_method:src:Controller.Game.wuerfeln:wuerfeln" role="Supplier"></participant>
+			<participant referencedUin="jdt:e_method:src:src.Controller.Game.wuerfeln:wuerfeln" role="Supplier"></participant>
 		</link>
 	</node>
 	<node uin="-yrgd8eh3py2jyw-wtzn2t">

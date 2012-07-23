@@ -17,5 +17,7 @@
 			<property name="bounds" value="138,-4,104,80"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="jdt:e_class:src:Model.Spielfeld">
+		</reference>
 	</view>
 </nodeSet>

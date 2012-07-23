@@ -9,10 +9,10 @@
 		<reference referencedUin="design:node:::j8ctxyh4yiltvl5sin3n">
 			<property name="$shortcutReference" value="true"/>
 			<property name="show_as_fullscreen" value="true"/>
-			<property name="bounds" value="10,10,991,690"/>
+			<property name="bounds" value="10,10,848,690"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="design:node:::-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">
-				<property name="bounds" value="0,0,989,664"/>
+				<property name="bounds" value="0,0,846,664"/>
 				<property name="location_set_by_user" value="true"/>
 				<reference referencedUin="design:node:::-3uf15dh4yk1zqn-d810e5:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">
 					<property name="bounds" value="76,227,145,49"/>
@@ -96,6 +96,9 @@
 						<property name="bendpoints" value="404,560"/>
 						<property name="smooth_bendpoints" value="404,560"/>
 						<property name="location_set_by_user" value="true"/>
+						<reference referencedUin="label:label:design:link:::ieje0rh4ykb53fyeo3op:-3uf15dh4yk9ejti3sk0g:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">
+							<property name="bounds" value="407,512,58,19"/>
+						</reference>
 					</reference>
 				</reference>
 				<reference referencedUin="design:node:::k9ofrlh4yim4wzzecjdm:-acitv2h4yiltw132zfrv:j8ctxyh4yiltvl5sin3n">

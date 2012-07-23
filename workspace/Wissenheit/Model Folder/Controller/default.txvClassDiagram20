@@ -5,9 +5,14 @@
 	<view uin="V1hexuhh3pvlsl6c0ioa8">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="jdt:e_class:src:Controller.Game">
+			<property name="bounds" value="105,5,95,80"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::V1hexuhh4yj0fpq-c0nohw">
+			<property name="bounds" value="5,5,80,75"/>
+			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>
 </nodeSet>

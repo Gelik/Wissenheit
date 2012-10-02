@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="156" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="154" y="32">
+<window height="732" maximized="true" width="1024" x="154" y="32">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.tssap.selena.model.ui.navigator.view"/>
 </fastViewData>
@@ -41,12 +41,20 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Objekt Modell" partName="Objekt Modell" title="Objekt Modell" tooltip="Objekt Modell" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::4mnejh4zhj0vixh75zg"/>
+<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" partName="Use Case Diagram2" title="Use Case Diagram2" tooltip="Use Case Diagram2" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" partName="Use Case Diagram1" title="Use Case Diagram1" tooltip="Use Case Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Wissenheit-UML" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
 </editor>
 </editors>
 <views>
@@ -55,18 +63,18 @@
 </view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
-<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filters>
+<filter element="*.class" isEnabled="false"/>
 <filter element=".*" isEnabled="false"/>
 <filter element="*.txv*" isEnabled="false"/>
 <filter element="*.txa*" isEnabled="false"/>
 <filter element="Model Folder" isEnabled="false"/>
 </filters>
-<expanded>&#x0A;<element path="/Wissenheit"/>
+<expanded>
+<element path="/Wissenheit"/>
 <element path="/Wissenheit/src"/>
 <element path="/Wissenheit-UML"/>
 </expanded>
-<selection>&#x0A;<element path="/Wissenheit/src/states"/>
-</selection>
 </viewState>
 </view>
 <view id="com.borland.dsl.project.DSLExplorer" partName="DSL Explorer">
@@ -126,9 +134,11 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Wissenheit" model="model:project::Wissenheit"/>
+<element element="model:project::Wissenheit-UML" model="model:project::Wissenheit-UML"/>
+<element element="design:view:::V1hexuhh3pvit0w-5d0zwu" model="model:project::Wissenheit-UML"/>
 </expanded>
 <selection>
-<element element="design:view:::4mnejh4zhj0vixh75zg" model="model:project::Wissenheit"/>
+<element element="design:view:::V-jr6xbagvavosmdes8v77" model="model:project::Wissenheit-UML"/>
 </selection>
 </viewState>
 </view>
@@ -384,21 +394,20 @@
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="com.tssap.selena.model.ui.navigator.view"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@14c3ee7" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.21927711"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@14c3ee7">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="com.tssap.selena.model.ui.navigator.view" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<page content="com.tssap.selena.model.ui.navigator.view" label="Model Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7">
@@ -409,15 +418,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@14c6244" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7">
-<folder activePageID="com.tssap.selena.model.ui.navigator.view" appearance="2" expanded="2">
-<page content="com.tssap.selena.model.ui.navigator.view" label="Model Navigator"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5ca00" ratio="0.6695279" ratioLeft="468" ratioRight="231" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14c6244">
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c3ee7"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5ca00" ratio="0.6695279" ratioLeft="468" ratioRight="231" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="com.borland.selena.modelmarker.modelbookmarks.view" label="LabelNotFound"/>
@@ -427,7 +429,6 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.17552336" ratioLeft="218" ratioRight="1024" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14c6244"/>
 </mainWindow>
 </layout>
 </perspective>
@@ -435,87 +436,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V1hexuhh4zmpuc0-brs5at"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::4mnejh4zhj0vixh75zg"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh7syg7sazd7v12"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh7syfz3u-tlcmvf"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Wissenheit-UML" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
 </editors>
-<item historyLabel="/[Class Diagram]" index="0">
-<position model_uin="model:project::Wissenheit" uin="design:view:::V1hexuhh4zmpuc0-brs5at"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|102(design@node@@@l2gqtvh7szglzl4sguhs@c87hzvh7szfzh9hvthv8@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|102(design@node@@@l2gqtvh7szglzl4sguhs@c87hzvh7szfzh9hvthv8@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szglzl4sguhs@c87hzvh7szfzh9hvthv8@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szglzl4sguhs@c87hzvh7szfzh9hvthv8@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7szfzh9hvthv8@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz20ssji38fz@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell.txvClassDiagram20" index="1">
-<position info="not_deleted" x="6152" y="0"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/Objekt Modell" index="2">
-<position model_uin="model:project::Wissenheit" uin="design:view:::4mnejh4zhj0vixh75zg"/>
+<item historyLabel="/null" index="0">
+<position/>
 </item>
-<item historyLabel="Objekt Modell/showStartingWindow" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.showStartingWindow@showStartingWindow:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/updateSpielfeld" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.updateSpielfeld@updateSpielfeld:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/null" index="0">
+<position/>
 </item>
-<item historyLabel="Objekt Modell/printStreiterOnScreen" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.printStreiterOnScreen@printStreiterOnScreen:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|103(design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szfzh9-457pjj@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/updateSpielfeld" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.updateSpielfeld@updateSpielfeld:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7szk5hwcfrs53@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/spielfeldZeichnen" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.spielfeldZeichnen@spielfeldZeichnen:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/updateSpielfeld" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.updateSpielfeld@updateSpielfeld:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/null" index="2">
+<position/>
 </item>
-<item historyLabel="Objekt Modell/spielfeldZeichnen" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.spielfeldZeichnen@spielfeldZeichnen:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/updateSpielfeld" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.updateSpielfeld@updateSpielfeld:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/null" index="0">
+<position/>
 </item>
-<item historyLabel="Objekt Modell/startGame" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.startGame@startGame:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|102(design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/updateSpielfeld" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.updateSpielfeld@updateSpielfeld:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7szk5hwcfrs53@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/Fassade" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/kategorieSetzen" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.kategorieSetzen@kategorieSetzen:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/SD20_Int_InvocationSpecification3" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@l2gqtvh7szk5hghvhzig@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/newPlayer" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.newPlayer@newPlayer:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/[Invocation Specification]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@l2gqtvh7szlaa1jtl9xc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/wuerfeln" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.wuerfeln@wuerfeln:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/moveWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.moveWissensstreiter@moveWissensstreiter:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/chooseWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.chooseWissensstreiter@chooseWissensstreiter:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|103(design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|103(design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/Fassade" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7szly1fnv7eli@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/chooseWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.chooseWissensstreiter@chooseWissensstreiter:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/chooseWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Controller.Game.chooseWissensstreiter@chooseWissensstreiter:jdt@e_class@src@src.Controller.Game"/>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/chooseWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.chooseWissensstreiter@chooseWissensstreiter:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/Lifeline2" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/wuerfeln" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.wuerfeln@wuerfeln:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item historyLabel="Objekt Modell/newPlayer" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.newPlayer@newPlayer:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
 </item>
-<item active="true" historyLabel="Objekt Modell/chooseWissensstreiter" index="2">
-<position model_uin="model:project::Wissenheit" uin="reference::design@view@@@4mnejh4zhj0vixh75zg::jdt@e_method@src@src.Model.Fassade.chooseWissensstreiter@chooseWissensstreiter:jdt@e_class@src@src.Model.Fassade"/>
+<item historyLabel="/SD20_Int_InvocationSpecification4" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/SD20_Int_InvocationSpecification4" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@l2gqtvh7szly1f-nud65m@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/SD20_ExecutionSpecification1" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/null" index="2">
+<position/>
+</item>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/null" index="2">
+<position/>
+</item>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/null" index="2">
+<position/>
+</item>
+<item historyLabel="/null" index="3">
+<position/>
+</item>
+<item historyLabel="/[Label]" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::sd20_message_label@sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message|1|call|147(design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o):sd20_message_container@design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@l2gqtvh7szedhg-xumajs@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-4jsuok@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@7x5rzxh7szce3c-2j80zc@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@c87hzvh7sz36iqy3l9xk@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-y8nsowh7sz26ndorwm3e@-yrgd8eh7syg7sa-hz7y1o:design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/Interaction" index="1">
+<position model_uin="model:project::Wissenheit-UML" uin="reference::design@view@@@Vam8ynkh7syg7sazd7v12::design@node@@@-yrgd8eh7syg7sa-hz7y1o"/>
+</item>
+<item historyLabel="/null" index="0">
+<position/>
+</item>
+<item historyLabel="Use Case Diagram1/Use Case Diagram1" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</item>
+<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="5">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</item>
+<item historyLabel="Use Case Diagram1/Use Case Diagram1" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</item>
+<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="5">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</item>
+<item historyLabel="Use Case Diagram1/Use Case Diagram1" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</item>
+<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="5">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</item>
+<item historyLabel="Use Case Diagram1/Use Case Diagram1" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</item>
+<item historyLabel="Use Case Diagram2/Use Case Diagram2" index="5">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
+</item>
+<item historyLabel="Use Case Diagram1/Use Case Diagram1" index="4">
+<position model_uin="model:project::Wissenheit" uin="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
+</item>
+<item active="true" historyLabel="Use Case Diagram1/Use Case Diagram1" index="6">
+<position model_uin="model:project::Wissenheit-UML" uin="design:view:::V-jr6xbagvavosmdes8v77"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -533,54 +610,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@b5ca00"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Objekt Modell" tooltip="Objekt Modell">
-<persistable model="model:project::Wissenheit" rc="design:view:::4mnejh4zhj0vixh75zg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Objekt Modell.txvClassDiagram20" tooltip="Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20">
-<persistable path="/Wissenheit/Model Folder/Objekt Modell.txvClassDiagram20"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unknown Name (RO)" tooltip="Unknown Name (RO)">
-<persistable model="model:project::Wissenheit" rc="design:view:::V1hexuhh4zmpuc0-brs5at"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren-kurz" tooltip="Spielzug durchfuehren-kurz">
-<persistable model="model:project::Wissenheit" rc="design:view:::fioz1h4ydo2ir-2btpbz"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielfeldInitialisieren" tooltip="spielfeldInitialisieren">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ymn07j-ngk012"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="kategorieSetzen" tooltip="kategorieSetzen">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ym6veajhiqzp"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="newPlayer" tooltip="newPlayer">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylxmx6f6uc57"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="spielStarten" tooltip="spielStarten">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4ylqj8q-b1szm2"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="State Diagram1" tooltip="State Diagram1">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-d9nhuoh4yilk2v-b5rza2"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" tooltip="Spielzug durchfuehren">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::V-jr6xbagvavosmdes8v77"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram2" tooltip="Use Case Diagram2">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2uve9-my1o5y"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
-<persistable model="model:project::Wissenheit" rc="design:view:::V-b8dyjih3x3im9n1644mx"/>
-</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Use Case Diagram1" tooltip="Use Case Diagram1">
 <persistable model="model:project::Wissenheit" rc="design:view:::V-jr6xbah3x2qp9a3ufbhf"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="nameFarbeEingeben(name:String, farbe:Color)1" tooltip="nameFarbeEingeben(name:String, farbe:Color)1">
-<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4yi3qkcp35miu"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug durchfuehren" tooltip="Spielzug durchfuehren">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh4y8s9unrhzwxp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="spielerErmitteln.txvSequenceDiagram20" tooltip="Wissenheit/Model Folder/spielerErmitteln.txvSequenceDiagram20">
-<persistable path="/Wissenheit/Model Folder/spielerErmitteln.txvSequenceDiagram20"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="wuerfeln()" tooltip="wuerfeln()">
+<persistable model="model:project::Wissenheit" rc="design:view:::Vam8ynkh3pwz2yrtxd71r"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spiel initialisieren" tooltip="Spiel initialisieren">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh7syg7sazd7v12"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spielzug" tooltip="Spielzug">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkh7syfz3u-tlcmvf"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram2" tooltip="Activity Diagram2">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvaxub1n-sdwjnj"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::V-b8dyjigvax6nfp-ig2wzt"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram4" tooltip="Sequence Diagram4">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p6kg6-5eieyu"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram3" tooltip="Sequence Diagram3">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7p2gkn-deydab"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram2" tooltip="Sequence Diagram2">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgx7oxs8x6w74o5"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Sequence Diagram1" tooltip="Sequence Diagram1">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::Vam8ynkgwg9hpdu-q80frq"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Objektmodell" tooltip="Objektmodell">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::V1hexuhh7sxzywk-edzqw"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Automat" tooltip="Automat">
+<persistable model="model:project::Wissenheit-UML" rc="design:view:::V-d9nhuoh3wx4hzx-9mk8on"/>
 </file>
 </mruList>
 </workbench>
